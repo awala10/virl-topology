@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+initialized.first_time.settings=true
+org.eclipse.gef.psize=135
+org.eclipse.gef.pstate=4
+vmmaestro.initial.override.question=true
+vmmaestro.initial.project.creation=true
+vmmaestro.usage_monitoring.version=VM Maestro dev-211
+vmmaestro.webservices.uri.<default>.AutoNetkit=http\://192.168.17.100\:19399/ank/rest
+vmmaestro.webservices.uri.<default>.OpenStack=http\://192.168.17.100\:19399/openstack/rest
+vmmaestro.webservices.uri.<default>.Roster=http\://192.168.17.100\:19399/roster/rest
+vmmaestro.webservices.uri.<default>.SimEngine=http\://192.168.17.100\:19399/simengine/rest
+vmmaestro.webservices.username.<default>=Awala

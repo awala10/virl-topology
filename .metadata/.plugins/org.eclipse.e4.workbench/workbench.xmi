@@ -1,0 +1,1297 @@
+<?xml version="1.0" encoding="ASCII"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_ks0eoPdTEeSfads-GQT-8g" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_ks0eofdTEeSfads-GQT-8g" bindingContexts="_ks1HCfdTEeSfads-GQT-8g">
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList/>&#xA;&lt;/workbench>"/>
+  <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
+  <tags>ModelMigrationProcessor.001</tags>
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_ks0eofdTEeSfads-GQT-8g" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_ks0eovdTEeSfads-GQT-8g" label="%trimmedwindow.label.eclipseSDK" width="900" height="700">
+    <persistedState key="coolBarVisible" value="true"/>
+    <persistedState key="perspectiveBarVisible" value="true"/>
+    <tags>topLevel</tags>
+    <children xsi:type="basic:PartSashContainer" xmi:id="_ks0eovdTEeSfads-GQT-8g" selectedElement="_ks0eo_dTEeSfads-GQT-8g" horizontal="true">
+      <children xsi:type="advanced:PerspectiveStack" xmi:id="_ks0eo_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_ks0eyfdTEeSfads-GQT-8g">
+        <children xsi:type="advanced:Perspective" xmi:id="_ks0epPdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.DesignPerspective" selectedElement="_ks0epfdTEeSfads-GQT-8g" label="Design" iconURI="platform:/plugin/com.cisco.vmmaestro/icons/topology.png">
+          <persistedState key="persp.hiddenItems" value="persp.hideMenuSC:org.eclipse.ui.run,persp.hideToolbarSC:org.eclipse.ui.edit.text.toggleShowSelectedElementOnly,"/>
+          <tags>persp.actionSet:org.eclipse.ui.cheatsheets.actionSet</tags>
+          <tags>persp.actionSet:org.eclipse.search.searchActionSet</tags>
+          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.annotationNavigation</tags>
+          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.navigation</tags>
+          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo</tags>
+          <tags>persp.actionSet:org.eclipse.ui.actionSet.keyBindings</tags>
+          <tags>persp.actionSet:org.eclipse.ui.actionSet.openFiles</tags>
+          <tags>persp.viewSC:com.cisco.vmmaestro.topoeditor.VIRLNodeEditor</tags>
+          <tags>persp.viewSC:com.cisco.vmmaestro.views.GraphOverview</tags>
+          <tags>persp.viewSC:com.cisco.vmmaestro.views.RosterView</tags>
+          <tags>persp.viewSC:org.eclipse.ui.views.PropertySheet</tags>
+          <tags>persp.viewSC:com.cisco.vmmaestro.navigator.CommonNavigator</tags>
+          <tags>persp.viewSC:org.eclipse.ui.views.ProblemView</tags>
+          <tags>persp.viewSC:org.eclipse.team.ui.GenericHistoryView</tags>
+          <tags>persp.viewSC:com.cisco.vmmaestro.views.ANKVisualization</tags>
+          <tags>persp.viewSC:com.cisco.vmmaestro.views.LiveVisualization</tags>
+          <tags>persp.perspSC:com.cisco.vmmaestro.SimulationPerspective</tags>
+          <tags>persp.newWizSC:com.cisco.vmmaestro.topoeditor.TopologyCreationWizard</tags>
+          <tags>persp.newWizSC:com.cisco.vmmaestro.wizards.ui.topology.project</tags>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_ks0epfdTEeSfads-GQT-8g" selectedElement="_ks0erPdTEeSfads-GQT-8g" horizontal="true">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_ks0epvdTEeSfads-GQT-8g" containerData="1000" selectedElement="_ks0ep_dTEeSfads-GQT-8g">
+              <children xsi:type="basic:PartStack" xmi:id="_ks0ep_dTEeSfads-GQT-8g" elementId="org.eclipse.gef.ui.palette_viewMStack" containerData="6488" selectedElement="_ks0eqPdTEeSfads-GQT-8g">
+                <tags>newtablook</tags>
+                <children xsi:type="advanced:Placeholder" xmi:id="_ks0eqPdTEeSfads-GQT-8g" elementId="org.eclipse.gef.ui.palette_view" ref="_ks0fb_dTEeSfads-GQT-8g"/>
+              </children>
+              <children xsi:type="basic:PartStack" xmi:id="_ks0eqfdTEeSfads-GQT-8g" elementId="bottomLeft" containerData="3512" selectedElement="_ks0eqvdTEeSfads-GQT-8g">
+                <tags>newtablook</tags>
+                <children xsi:type="advanced:Placeholder" xmi:id="_ks0eqvdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.navigator.CommonNavigator" ref="_ks1FsvdTEeSfads-GQT-8g"/>
+                <children xsi:type="advanced:Placeholder" xmi:id="_ks0eq_dTEeSfads-GQT-8g" elementId="org.eclipse.team.ui.GenericHistoryView" ref="_ks1Fw_dTEeSfads-GQT-8g"/>
+              </children>
+            </children>
+            <children xsi:type="basic:PartSashContainer" xmi:id="_ks0erPdTEeSfads-GQT-8g" containerData="9000" selectedElement="_ks0erfdTEeSfads-GQT-8g" horizontal="true">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_ks0erfdTEeSfads-GQT-8g" containerData="8678" selectedElement="_ks0ervdTEeSfads-GQT-8g">
+                <children xsi:type="advanced:Placeholder" xmi:id="_ks0ervdTEeSfads-GQT-8g" elementId="org.eclipse.ui.editorss" containerData="6600" ref="_ks0fW_dTEeSfads-GQT-8g"/>
+                <children xsi:type="basic:PartStack" xmi:id="_ks0er_dTEeSfads-GQT-8g" elementId="bottom" containerData="3400" selectedElement="_ks0esPdTEeSfads-GQT-8g">
+                  <tags>newtablook</tags>
+                  <tags>noFocus</tags>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_ks0esPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.views.PropertySheet" ref="_ks1F0vdTEeSfads-GQT-8g"/>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_ks0esfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.views.ProblemView" ref="_ks1F4_dTEeSfads-GQT-8g"/>
+                </children>
+              </children>
+              <children xsi:type="basic:PartSashContainer" xmi:id="_ks0esvdTEeSfads-GQT-8g" containerData="1322" selectedElement="_ks0es_dTEeSfads-GQT-8g">
+                <children xsi:type="basic:PartStack" xmi:id="_ks0es_dTEeSfads-GQT-8g" elementId="topRight" containerData="6600" selectedElement="_ks0etPdTEeSfads-GQT-8g">
+                  <tags>newtablook</tags>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_ks0etPdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.topoeditor.VIRLNodeEditor" ref="_ks1FzPdTEeSfads-GQT-8g"/>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_ks0etfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.views.ContentOutline" ref="_ks1F0PdTEeSfads-GQT-8g"/>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_ks0etvdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.views.RosterView" toBeRendered="false" ref="_ks1F0fdTEeSfads-GQT-8g"/>
+                </children>
+                <children xsi:type="basic:PartStack" xmi:id="_ks0et_dTEeSfads-GQT-8g" elementId="bottomRight" containerData="3400" selectedElement="_ks0euPdTEeSfads-GQT-8g">
+                  <tags>newtablook</tags>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_ks0euPdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.views.GraphOverview" ref="_ks1F5_dTEeSfads-GQT-8g"/>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_ks0eufdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.views.ANKVisualization" toBeRendered="false" ref="_ks1F6vdTEeSfads-GQT-8g"/>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_ks0euvdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.views.VNCViewer" toBeRendered="false" ref="_ks1F6_dTEeSfads-GQT-8g"/>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_ks0eu_dTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.views.LiveVisualization" toBeRendered="false" ref="_ks1F7PdTEeSfads-GQT-8g"/>
+                </children>
+              </children>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="advanced:Perspective" xmi:id="_ks0evPdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.SimulationPerspective" label="Simulation">
+          <tags>persp.actionSet:org.eclipse.ui.cheatsheets.actionSet</tags>
+          <tags>persp.actionSet:org.eclipse.search.searchActionSet</tags>
+          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.annotationNavigation</tags>
+          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.navigation</tags>
+          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo</tags>
+          <tags>persp.actionSet:org.eclipse.ui.actionSet.keyBindings</tags>
+          <tags>persp.actionSet:org.eclipse.ui.actionSet.openFiles</tags>
+          <tags>persp.viewSC:org.eclipse.ui.console.ConsoleView</tags>
+          <tags>persp.viewSC:com.cisco.cide.ui.terminal.views.CiscoTerminalView</tags>
+          <tags>persp.viewSC:com.cisco.cide.ui.terminal.views.TerminalMultiplexerView</tags>
+          <tags>persp.viewSC:com.cisco.vmmaestro.views.RosterView</tags>
+          <tags>persp.viewSC:org.eclipse.ui.views.PropertySheet</tags>
+          <tags>persp.viewSC:com.cisco.vmmaestro.navigator.CommonNavigator</tags>
+          <tags>persp.viewSC:com.cisco.vmmaestro.views.ANKVisualization</tags>
+          <tags>persp.viewSC:com.cisco.vmmaestro.views.LiveVisualization</tags>
+          <tags>persp.perspSC:com.cisco.vmmaestro.DesignPerspective</tags>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_ks0evfdTEeSfads-GQT-8g" horizontal="true">
+            <children xsi:type="basic:PartStack" xmi:id="_ks0evvdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.navigator.CommonNavigatorMStack" containerData="2000">
+              <tags>newtablook</tags>
+              <children xsi:type="advanced:Placeholder" xmi:id="_ks0ev_dTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.navigator.CommonNavigator" ref="_ks1FsvdTEeSfads-GQT-8g"/>
+            </children>
+            <children xsi:type="basic:PartSashContainer" xmi:id="_ks0ewPdTEeSfads-GQT-8g" containerData="8000" horizontal="true">
+              <children xsi:type="advanced:Placeholder" xmi:id="_ks0ewfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.editorss" containerData="6000" ref="_ks0fW_dTEeSfads-GQT-8g"/>
+              <children xsi:type="basic:PartSashContainer" xmi:id="_ks0ewvdTEeSfads-GQT-8g" containerData="4000">
+                <children xsi:type="basic:PartStack" xmi:id="_ks0ew_dTEeSfads-GQT-8g" elementId="topRight" containerData="7000">
+                  <tags>newtablook</tags>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_ks0exPdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.views.RosterView" ref="_ks1F0fdTEeSfads-GQT-8g"/>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_ks0exfdTEeSfads-GQT-8g" elementId="com.cisco.cide.ui.terminal.views.TerminalMultiplexerView" toBeRendered="false" ref="_ks1F7fdTEeSfads-GQT-8g"/>
+                </children>
+                <children xsi:type="basic:PartStack" xmi:id="_ks0exvdTEeSfads-GQT-8g" elementId="bottomRight" containerData="3000">
+                  <tags>newtablook</tags>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_ks0ex_dTEeSfads-GQT-8g" elementId="com.cisco.cide.ui.terminal.views.CiscoTerminalView" toBeRendered="false" ref="_ks1F7vdTEeSfads-GQT-8g"/>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_ks0eyPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.console.ConsoleView" ref="_ks1F7_dTEeSfads-GQT-8g"/>
+                </children>
+              </children>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="advanced:Perspective" xmi:id="_ks0eyfdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.GitRepositoryExploring" selectedElement="_ks0eyvdTEeSfads-GQT-8g" label="Git" iconURI="platform:/plugin/org.eclipse.egit.ui/icons/obj16/gitrepository.gif">
+          <persistedState key="persp.hiddenItems" value="persp.hideMenuSC:org.eclipse.ui.run,persp.hideToolbarSC:org.eclipse.ui.edit.text.toggleShowSelectedElementOnly,"/>
+          <tags>persp.actionSet:org.eclipse.ui.cheatsheets.actionSet</tags>
+          <tags>persp.actionSet:org.eclipse.search.searchActionSet</tags>
+          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.annotationNavigation</tags>
+          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.navigation</tags>
+          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo</tags>
+          <tags>persp.actionSet:org.eclipse.ui.actionSet.keyBindings</tags>
+          <tags>persp.actionSet:org.eclipse.ui.actionSet.openFiles</tags>
+          <tags>persp.viewSC:org.eclipse.jdt.ui.PackageExplorer</tags>
+          <tags>persp.viewSC:org.eclipse.team.ui.GenericHistoryView</tags>
+          <tags>persp.viewSC:org.eclipse.team.sync.views.SynchronizeView</tags>
+          <tags>persp.viewSC:org.eclipse.egit.ui.StagingView</tags>
+          <tags>persp.viewSC:org.eclipse.egit.ui.ReflogView</tags>
+          <tags>persp.actionSet:org.eclipse.egit.ui.navigation</tags>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_ks0eyvdTEeSfads-GQT-8g" selectedElement="_ks0ey_dTEeSfads-GQT-8g" horizontal="true">
+            <children xsi:type="basic:PartStack" xmi:id="_ks0ey_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesViewMStack" containerData="5000" selectedElement="_ks0ezPdTEeSfads-GQT-8g">
+              <tags>newtablook</tags>
+              <tags>active</tags>
+              <tags>noFocus</tags>
+              <children xsi:type="advanced:Placeholder" xmi:id="_ks0ezPdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesView" ref="_ks1F8PdTEeSfads-GQT-8g"/>
+            </children>
+            <children xsi:type="basic:PartSashContainer" xmi:id="_ks0ezfdTEeSfads-GQT-8g" containerData="5000" selectedElement="_ks0ezvdTEeSfads-GQT-8g">
+              <children xsi:type="advanced:Placeholder" xmi:id="_ks0ezvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.editorss" containerData="5000" ref="_ks0fW_dTEeSfads-GQT-8g"/>
+              <children xsi:type="basic:PartStack" xmi:id="_ks0ez_dTEeSfads-GQT-8g" elementId="bottom" containerData="5000" selectedElement="_ks0e0PdTEeSfads-GQT-8g">
+                <tags>newtablook</tags>
+                <children xsi:type="advanced:Placeholder" xmi:id="_ks0e0PdTEeSfads-GQT-8g" elementId="org.eclipse.ui.views.PropertySheet" ref="_ks1F0vdTEeSfads-GQT-8g"/>
+                <children xsi:type="advanced:Placeholder" xmi:id="_ks0e0fdTEeSfads-GQT-8g" elementId="org.eclipse.team.ui.GenericHistoryView" ref="_ks1Fw_dTEeSfads-GQT-8g"/>
+                <children xsi:type="advanced:Placeholder" xmi:id="_ks0e0vdTEeSfads-GQT-8g" elementId="org.eclipse.team.sync.views.SynchronizeView" ref="_ks1GIfdTEeSfads-GQT-8g"/>
+                <children xsi:type="advanced:Placeholder" xmi:id="_ks0e0_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.StagingView" ref="_ks1GIvdTEeSfads-GQT-8g"/>
+                <children xsi:type="advanced:Placeholder" xmi:id="_ks0e1PdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.ReflogView" ref="_ks1GI_dTEeSfads-GQT-8g"/>
+              </children>
+            </children>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="basic:PartStack" xmi:id="_ks0e1fdTEeSfads-GQT-8g" elementId="stickyFolderRight" containerData="2500" selectedElement="_ks0e2PdTEeSfads-GQT-8g">
+        <children xsi:type="advanced:Placeholder" xmi:id="_ks0e1vdTEeSfads-GQT-8g" elementId="org.eclipse.help.ui.HelpView" toBeRendered="false" ref="_ks0fVPdTEeSfads-GQT-8g"/>
+        <children xsi:type="advanced:Placeholder" xmi:id="_ks0e1_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.internal.introview" toBeRendered="false" ref="_ks0fVfdTEeSfads-GQT-8g"/>
+        <children xsi:type="advanced:Placeholder" xmi:id="_ks0e2PdTEeSfads-GQT-8g" elementId="org.eclipse.ui.cheatsheets.views.CheatSheetView" ref="_ks0fVvdTEeSfads-GQT-8g"/>
+      </children>
+    </children>
+    <sharedElements xsi:type="basic:Part" xmi:id="_ks0fVPdTEeSfads-GQT-8g" elementId="org.eclipse.help.ui.HelpView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Help" iconURI="platform:/plugin/org.eclipse.help.ui/icons/view16/help_view.gif" closeable="true">
+      <tags>View</tags>
+      <tags>categoryTag:Help</tags>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_ks0fVfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.internal.introview" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Welcome" iconURI="platform:/plugin/org.eclipse.ui/icons/full/eview16/defaultview_misc.png" closeable="true">
+      <tags>View</tags>
+      <tags>categoryTag:General</tags>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_ks0fVvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.cheatsheets.views.CheatSheetView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Cheat Sheets" iconURI="platform:/plugin/org.eclipse.ui.cheatsheets/icons/view16/cheatsheet_view.gif" closeable="true">
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view>&#xA;&lt;cheatSheetMemento id=&quot;com.cisco.vmmaestro.ui.cheatsheet.firstTopology&quot;/>&#xA;&lt;/view>"/>
+      <tags>View</tags>
+      <tags>categoryTag:Help</tags>
+      <menus xmi:id="_ks0fV_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.cheatsheets.views.CheatSheetView">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_ks0fWfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.cheatsheets.views.CheatSheetView"/>
+    </sharedElements>
+    <sharedElements xsi:type="advanced:Area" xmi:id="_ks0fW_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.editorss" selectedElement="_ks0fXPdTEeSfads-GQT-8g">
+      <children xsi:type="basic:PartStack" xmi:id="_ks0fXPdTEeSfads-GQT-8g" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_ks0fXfdTEeSfads-GQT-8g">
+        <tags>newtablook</tags>
+        <tags>org.eclipse.e4.primaryDataStack</tags>
+        <tags>EditorStack</tags>
+        <children xsi:type="basic:Part" xmi:id="_ks0fXfdTEeSfads-GQT-8g" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="all-dev-topology.virl" iconURI="platform:/plugin/com.cisco.vmmaestro/icons/topology.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;com.cisco.vmmaestro.topoeditor.VIRLTopologyEditor&quot; name=&quot;all-dev-topology.virl&quot; partName=&quot;all-dev-topology.virl&quot; title=&quot;all-dev-topology.virl&quot; tooltip=&quot;Sample Topologies/all-dev-topology.virl&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Sample Topologies/all-dev-topology.virl&quot;/>&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>com.cisco.vmmaestro.topoeditor.VIRLTopologyEditor</tags>
+          <tags>removeOnHide</tags>
+          <menus xsi:type="menu:PopupMenu" xmi:id="_ks0fXvdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.topoeditor.VIRLTopologyEditor">
+            <tags>menuContribution:popup</tags>
+            <tags>popup:com.cisco.vmmaestro.topoeditor.VIRLTopologyEditor</tags>
+          </menus>
+        </children>
+      </children>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_ks0fb_dTEeSfads-GQT-8g" elementId="org.eclipse.gef.ui.palette_view" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Palette" iconURI="platform:/plugin/org.eclipse.gef/icons/palette_view.gif" closeable="true">
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
+      <tags>View</tags>
+      <tags>categoryTag:General</tags>
+      <menus xmi:id="_ks1FsPdTEeSfads-GQT-8g" elementId="org.eclipse.gef.ui.palette_view">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_ks1FsfdTEeSfads-GQT-8g" elementId="org.eclipse.gef.ui.palette_view"/>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_ks1FsvdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.navigator.CommonNavigator" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Projects" iconURI="platform:/plugin/com.cisco.vmmaestro/icons/topology.png" closeable="true">
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;1&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;/>"/>
+      <tags>View</tags>
+      <tags>categoryTag:General</tags>
+      <menus xmi:id="_ks1Fs_dTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.navigator.CommonNavigator">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <menus xsi:type="menu:PopupMenu" xmi:id="_ks1FvvdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.navigator.CommonNavigator">
+        <tags>menuContribution:popup</tags>
+        <tags>popup:com.cisco.vmmaestro.navigator.CommonNavigator</tags>
+      </menus>
+      <toolbar xmi:id="_ks1Fv_dTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.navigator.CommonNavigator"/>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_ks1Fw_dTEeSfads-GQT-8g" elementId="org.eclipse.team.ui.GenericHistoryView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="History" iconURI="platform:/plugin/org.eclipse.team.ui/icons/full/eview16/history_view.gif" closeable="true">
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
+      <tags>View</tags>
+      <tags>categoryTag:Team</tags>
+      <menus xmi:id="_ks1FxPdTEeSfads-GQT-8g" elementId="org.eclipse.team.ui.GenericHistoryView">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_ks1FxfdTEeSfads-GQT-8g" elementId="org.eclipse.team.ui.GenericHistoryView"/>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_ks1FzPdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.topoeditor.VIRLNodeEditor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Node Editor" iconURI="platform:/plugin/com.cisco.vmmaestro/icons/platform.png" closeable="true">
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
+      <tags>View</tags>
+      <tags>categoryTag:General</tags>
+      <menus xmi:id="_ks1FzfdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.topoeditor.VIRLNodeEditor">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <menus xsi:type="menu:PopupMenu" xmi:id="_ks1FzvdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.topoeditor.VIRLNodeEditor">
+        <tags>menuContribution:popup</tags>
+        <tags>popup:com.cisco.vmmaestro.topoeditor.VIRLNodeEditor</tags>
+      </menus>
+      <toolbar xmi:id="_ks1Fz_dTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.topoeditor.VIRLNodeEditor"/>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_ks1F0PdTEeSfads-GQT-8g" elementId="org.eclipse.ui.views.ContentOutline" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Outline" iconURI="platform:/plugin/org.eclipse.ui.views/icons/full/eview16/outline_co.png" closeable="true">
+      <tags>View</tags>
+      <tags>categoryTag:General</tags>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_ks1F0fdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.views.RosterView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Simulations" iconURI="platform:/plugin/com.cisco.vmmaestro/icons/roster_view.gif" closeable="true">
+      <tags>View</tags>
+      <tags>categoryTag:General</tags>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_ks1F0vdTEeSfads-GQT-8g" elementId="org.eclipse.ui.views.PropertySheet" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Properties" iconURI="platform:/plugin/org.eclipse.ui.views/icons/full/eview16/prop_ps.png" closeable="true">
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
+      <tags>View</tags>
+      <tags>categoryTag:General</tags>
+      <menus xmi:id="_ks1F0_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.views.PropertySheet">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_ks1F2_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.views.PropertySheet"/>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_ks1F4_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.views.ProblemView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Problems" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/problems_view.png" closeable="true">
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;105&quot; org.eclipse.ui.ide.markerType=&quot;105&quot; org.eclipse.ui.ide.pathField=&quot;140&quot; org.eclipse.ui.ide.resourceField=&quot;105&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;350&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xA;&lt;/view>"/>
+      <tags>View</tags>
+      <tags>categoryTag:General</tags>
+      <menus xmi:id="_ks1F5PdTEeSfads-GQT-8g" elementId="org.eclipse.ui.views.ProblemView">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <menus xsi:type="menu:PopupMenu" xmi:id="_ks1F5fdTEeSfads-GQT-8g" elementId="org.eclipse.ui.views.ProblemView">
+        <tags>menuContribution:popup</tags>
+        <tags>popup:org.eclipse.ui.views.ProblemView</tags>
+        <tags>popup:org.eclipse.ui.ide.MarkersView</tags>
+      </menus>
+      <toolbar xmi:id="_ks1F5vdTEeSfads-GQT-8g" elementId="org.eclipse.ui.views.ProblemView"/>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_ks1F5_dTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.views.GraphOverview" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Graph Overview" iconURI="platform:/plugin/com.cisco.vmmaestro/icons/overview.gif" closeable="true">
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
+      <tags>View</tags>
+      <tags>categoryTag:General</tags>
+      <menus xmi:id="_ks1F6PdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.views.GraphOverview">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_ks1F6fdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.views.GraphOverview"/>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_ks1F6vdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.views.ANKVisualization" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="AutoNetkit Visualization" iconURI="platform:/plugin/com.cisco.vmmaestro/icons/autonetkit.png" closeable="true">
+      <tags>View</tags>
+      <tags>categoryTag:General</tags>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_ks1F6_dTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.views.VNCViewer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="VNC Viewer" iconURI="platform:/plugin/com.cisco.vmmaestro/icons/vnc.png" closeable="true">
+      <tags>View</tags>
+      <tags>categoryTag:General</tags>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_ks1F7PdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.views.LiveVisualization" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Live Visualization" iconURI="platform:/plugin/com.cisco.vmmaestro/icons/autonetkit.png" closeable="true">
+      <tags>View</tags>
+      <tags>categoryTag:General</tags>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_ks1F7fdTEeSfads-GQT-8g" elementId="com.cisco.cide.ui.terminal.views.TerminalMultiplexerView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Terminal Multiplexer" iconURI="platform:/plugin/com.cisco.cide.ui.terminal/icons/full/eview16/terminal_view.gif" closeable="true">
+      <tags>View</tags>
+      <tags>categoryTag:General</tags>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_ks1F7vdTEeSfads-GQT-8g" elementId="com.cisco.cide.ui.terminal.views.CiscoTerminalView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Cisco Terminal" iconURI="platform:/plugin/com.cisco.cide.ui.terminal/icons/full/eview16/terminal_view.gif" closeable="true">
+      <tags>View</tags>
+      <tags>categoryTag:General</tags>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_ks1F7_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.console.ConsoleView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Console" iconURI="platform:/plugin/org.eclipse.ui.console/icons/full/cview16/console_view.png" closeable="true">
+      <tags>View</tags>
+      <tags>categoryTag:General</tags>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_ks1F8PdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Git Repositories" iconURI="platform:/plugin/org.eclipse.egit.ui/icons/eview16/repo_rep.gif" closeable="true">
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot;/>"/>
+      <tags>View</tags>
+      <tags>categoryTag:Git</tags>
+      <tags>active</tags>
+      <menus xmi:id="_ks1F8fdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesView">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <menus xsi:type="menu:PopupMenu" xmi:id="_ks1GAfdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesView">
+        <tags>menuContribution:popup</tags>
+        <tags>popup:org.eclipse.egit.ui.RepositoriesView</tags>
+      </menus>
+      <menus xsi:type="menu:PopupMenu" xmi:id="_ks1GAvdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesView">
+        <tags>menuContribution:popup</tags>
+        <tags>popup:org.eclipse.egit.ui.RepositoriesView</tags>
+      </menus>
+      <toolbar xmi:id="_ks1GFPdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesView"/>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_ks1GIfdTEeSfads-GQT-8g" elementId="org.eclipse.team.sync.views.SynchronizeView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Synchronize" iconURI="platform:/plugin/org.eclipse.team.ui/icons/full/eview16/synch_synch.gif" closeable="true">
+      <tags>View</tags>
+      <tags>categoryTag:Team</tags>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_ks1GIvdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.StagingView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Git Staging" iconURI="platform:/plugin/org.eclipse.egit.ui/icons/eview16/staging.png" closeable="true">
+      <tags>View</tags>
+      <tags>categoryTag:Git</tags>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_ks1GI_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.ReflogView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Git Reflog" iconURI="platform:/plugin/org.eclipse.egit.ui/icons/eview16/reflog.gif" closeable="true">
+      <tags>View</tags>
+      <tags>categoryTag:Git</tags>
+    </sharedElements>
+    <trimBars xmi:id="_ks1GJPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.main.toolbar" contributorURI="platform:/plugin/org.eclipse.ui.workbench">
+      <children xsi:type="menu:ToolBar" xmi:id="_ks1GOPdTEeSfads-GQT-8g" elementId="StartCoolBar">
+        <tags>Draggable</tags>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_ks1GOfdTEeSfads-GQT-8g" elementId="additions" toBeRendered="false">
+        <tags>toolbarSeparator</tags>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_ks1GOvdTEeSfads-GQT-8g" elementId="additions" toBeRendered="false"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_ks1GO_dTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.topoeditor.VIRLTopologyEditor">
+        <tags>Draggable</tags>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_ks1GPPdTEeSfads-GQT-8g" elementId="group.editor" toBeRendered="false">
+        <tags>toolbarSeparator</tags>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_ks1GPfdTEeSfads-GQT-8g" elementId="group.editor" toBeRendered="false"/>
+      </children>
+      <children xsi:type="menu:ToolControl" xmi:id="_ks1GPvdTEeSfads-GQT-8g" elementId="PerspectiveSpacer" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
+        <tags>stretch</tags>
+        <tags>SHOW_RESTORE_MENU</tags>
+      </children>
+      <children xsi:type="menu:ToolControl" xmi:id="_ks1GQvdTEeSfads-GQT-8g" elementId="PerspectiveSwitcher" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.e4.ui.workbench.addons.perspectiveswitcher.PerspectiveSwitcher">
+        <tags>Draggable</tags>
+        <tags>HIDEABLE</tags>
+        <tags>SHOW_RESTORE_MENU</tags>
+      </children>
+    </trimBars>
+    <trimBars xmi:id="_ks1GQ_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.trim.status" contributorURI="platform:/plugin/org.eclipse.ui.workbench" side="Bottom">
+      <children xsi:type="menu:ToolBar" xmi:id="_ks1GRvdTEeSfads-GQT-8g" elementId="org.eclipse.search.searchActionSet">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_ks1GR_dTEeSfads-GQT-8g" elementId="Search">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_ks1GSPdTEeSfads-GQT-8g" elementId="org.eclipse.search.OpenSearchDialogPage">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_ks1GSfdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.commit.OpenCommitAction">
+          <tags>Opaque</tags>
+        </children>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_ks1GSvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.actionSet.annotationNavigation">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_ks1GS_dTEeSfads-GQT-8g" elementId="history.group">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_ks1GTPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.gotoNextAnnotation">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_ks1GTfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.gotoPreviousAnnotation">
+          <tags>Opaque</tags>
+        </children>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_ks1GTvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.actionSet.navigation">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_ks1GT_dTEeSfads-GQT-8g" elementId="history.group">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_ks1GUPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.gotoLastEditPosition">
+          <tags>Opaque</tags>
+        </children>
+      </children>
+      <children xsi:type="menu:ToolControl" xmi:id="_ks1GUfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.StatusLine" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim">
+        <tags>stretch</tags>
+      </children>
+      <children xsi:type="menu:ToolControl" xmi:id="_ks1GUvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.HeapStatus" toBeRendered="false" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim">
+        <tags>Draggable</tags>
+      </children>
+      <children xsi:type="menu:ToolControl" xmi:id="_ks1GU_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.ProgressBar" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim">
+        <tags>Draggable</tags>
+      </children>
+    </trimBars>
+    <trimBars xmi:id="_ks1GVPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.trim.vertical1" contributorURI="platform:/plugin/org.eclipse.ui.workbench" toBeRendered="false" side="Left">
+      <children xsi:type="menu:ToolControl" xmi:id="_ks1GVfdTEeSfads-GQT-8g" elementId="org.eclipse.gef.ui.palette_viewMStack(com.cisco.vmmaestro.DesignPerspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+        <tags>TrimStack</tags>
+      </children>
+      <children xsi:type="menu:ToolControl" xmi:id="_ks1GVvdTEeSfads-GQT-8g" elementId="bottomLeft(com.cisco.vmmaestro.DesignPerspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+        <tags>TrimStack</tags>
+      </children>
+    </trimBars>
+    <trimBars xmi:id="_ks1GV_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.trim.vertical2" contributorURI="platform:/plugin/org.eclipse.ui.workbench" toBeRendered="false" side="Right">
+      <children xsi:type="menu:ToolControl" xmi:id="_ks1GWPdTEeSfads-GQT-8g" elementId="bottom(com.cisco.vmmaestro.DesignPerspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+        <tags>TrimStack</tags>
+      </children>
+      <children xsi:type="menu:ToolControl" xmi:id="_ks1GWfdTEeSfads-GQT-8g" elementId="topRight(com.cisco.vmmaestro.DesignPerspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+        <tags>TrimStack</tags>
+      </children>
+      <children xsi:type="menu:ToolControl" xmi:id="_ks1GWvdTEeSfads-GQT-8g" elementId="bottomRight(com.cisco.vmmaestro.DesignPerspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+        <tags>TrimStack</tags>
+      </children>
+    </trimBars>
+  </children>
+  <bindingTables xmi:id="_ks1GW_dTEeSfads-GQT-8g" contributorURI="platform:/plugin/org.eclipse.ui.workbench" bindingContext="_ks1HCfdTEeSfads-GQT-8g">
+    <bindings xmi:id="_ks1GXPdTEeSfads-GQT-8g" keySequence="CTRL+SHIFT+L" command="_ks27S_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GXfdTEeSfads-GQT-8g" keySequence="ALT+SHIFT+F3" command="_ks27IvdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GXvdTEeSfads-GQT-8g" keySequence="CTRL+X" command="_ks27DfdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GX_dTEeSfads-GQT-8g" keySequence="CTRL+V" command="_ks2U2vdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GYPdTEeSfads-GQT-8g" keySequence="CTRL+1" command="_ks2VbvdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GYfdTEeSfads-GQT-8g" keySequence="CTRL+SHIFT+Z" command="_ks27jPdTEeSfads-GQT-8g">
+      <tags>platform:gtk</tags>
+    </bindings>
+    <bindings xmi:id="_ks1GYvdTEeSfads-GQT-8g" keySequence="CTRL+F10" command="_ks2U8_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GY_dTEeSfads-GQT-8g" keySequence="CTRL+C" command="_ks2UsvdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GZPdTEeSfads-GQT-8g" keySequence="ALT+PAGE_DOWN" command="_ks2VOPdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GZfdTEeSfads-GQT-8g" keySequence="SHIFT+INSERT" command="_ks2U2vdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GZvdTEeSfads-GQT-8g" keySequence="ALT+PAGE_UP" command="_ks27m_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GZ_dTEeSfads-GQT-8g" keySequence="CTRL+INSERT" command="_ks2UsvdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GaPdTEeSfads-GQT-8g" keySequence="CTRL+Z" command="_ks27BfdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GafdTEeSfads-GQT-8g" keySequence="SHIFT+DEL" command="_ks27DfdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GavdTEeSfads-GQT-8g" keySequence="CTRL+A" command="_ks27Z_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1Ga_dTEeSfads-GQT-8g" keySequence="CTRL+SPACE" command="_ks267PdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GbPdTEeSfads-GQT-8g" keySequence="CTRL+SHIFT+SPACE" command="_ks264PdTEeSfads-GQT-8g"/>
+  </bindingTables>
+  <bindingTables xmi:id="_ks1GbfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.contexts.window" bindingContext="_ks1HCvdTEeSfads-GQT-8g">
+    <bindings xmi:id="_ks1GbvdTEeSfads-GQT-8g" keySequence="CTRL+F7" command="_ks2Us_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1Gb_dTEeSfads-GQT-8g" keySequence="CTRL+SHIFT+L" command="_ks2UvfdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GcPdTEeSfads-GQT-8g" keySequence="F5" command="_ks27OvdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GcfdTEeSfads-GQT-8g" keySequence="CTRL+T" command="_ks2UsfdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GcvdTEeSfads-GQT-8g" keySequence="CTRL+W" command="_ks27k_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1Gc_dTEeSfads-GQT-8g" keySequence="CTRL+-" command="_ks27T_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GdPdTEeSfads-GQT-8g" keySequence="CTRL+3" command="_ks2VdfdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GdfdTEeSfads-GQT-8g" keySequence="CTRL+SHIFT+F7" command="_ks27ZfdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GdvdTEeSfads-GQT-8g" keySequence="ALT+F7" command="_ks2U2_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1Gd_dTEeSfads-GQT-8g" keySequence="F2" command="_ks2U4PdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GePdTEeSfads-GQT-8g" keySequence="CTRL+L" command="_ks2VDPdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GefdTEeSfads-GQT-8g" keySequence="CTRL+SHIFT+F8" command="_ks264_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GevdTEeSfads-GQT-8g" keySequence="ALT+SHIFT+F7" command="_ks2VSPdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1Ge_dTEeSfads-GQT-8g" keySequence="CTRL+F4" command="_ks27k_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GfPdTEeSfads-GQT-8g" keySequence="CTRL+M" command="_ks266PdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GffdTEeSfads-GQT-8g" keySequence="DEL" command="_ks2VGvdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GfvdTEeSfads-GQT-8g" keySequence="CTRL+." command="_ks27ePdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1Gf_dTEeSfads-GQT-8g" keySequence="CTRL+S" command="_ks27TvdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GgPdTEeSfads-GQT-8g" keySequence="CTRL+F6" command="_ks2VFfdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GgfdTEeSfads-GQT-8g" keySequence="F12" command="_ks267vdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GgvdTEeSfads-GQT-8g" keySequence="ALT+CR" command="_ks2VhfdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1Gg_dTEeSfads-GQT-8g" keySequence="CTRL+SHIFT+F4" command="_ks27DPdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GhPdTEeSfads-GQT-8g" keySequence="CTRL+P" command="_ks27HPdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GhfdTEeSfads-GQT-8g" keySequence="CTRL+SHIFT+R" command="_ks27rvdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GhvdTEeSfads-GQT-8g" keySequence="CTRL+Q" command="_ks27KfdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1Gh_dTEeSfads-GQT-8g" keySequence="CTRL+SHIFT+NUMPAD_DIVIDE" command="_ks265vdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GiPdTEeSfads-GQT-8g" keySequence="ALT+SHIFT+W" command="_ks27dfdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GifdTEeSfads-GQT-8g" keySequence="CTRL+," command="_ks2U3fdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GivdTEeSfads-GQT-8g" keySequence="ALT+SHIFT+N" command="_ks27CfdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1Gi_dTEeSfads-GQT-8g" keySequence="CTRL+B" command="_ks2VZPdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GjPdTEeSfads-GQT-8g" keySequence="CTRL+B" command="_ks2U4vdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GjfdTEeSfads-GQT-8g" keySequence="CTRL+SHIFT+W" command="_ks27DPdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GjvdTEeSfads-GQT-8g" keySequence="CTRL+N" command="_ks27j_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1Gj_dTEeSfads-GQT-8g" keySequence="ALT+ARROW_RIGHT" command="_ks27IfdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GkPdTEeSfads-GQT-8g" keySequence="CTRL+#" command="_ks2U9PdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GkfdTEeSfads-GQT-8g" keySequence="CTRL+F" command="_ks2VDvdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GkvdTEeSfads-GQT-8g" keySequence="CTRL+SHIFT+E" command="_ks2VNvdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1Gk_dTEeSfads-GQT-8g" keySequence="CTRL+E" command="_ks26_vdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GlPdTEeSfads-GQT-8g" keySequence="ALT+CTRL+G" command="_ks2VHPdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GlfdTEeSfads-GQT-8g" keySequence="CTRL+H" command="_ks266_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GlvdTEeSfads-GQT-8g" keySequence="CTRL+SHIFT+N" command="_ks27VPdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1Gl_dTEeSfads-GQT-8g" keySequence="ALT+-" command="_ks2UxvdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GmPdTEeSfads-GQT-8g" keySequence="CTRL+SHIFT+NUMPAD_MULTIPLY" command="_ks2VBvdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GmfdTEeSfads-GQT-8g" keySequence="CTRL+SHIFT+F6" command="_ks2VC_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GmvdTEeSfads-GQT-8g" keySequence="CTRL+SHIFT+S" command="_ks2VB_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1Gm_dTEeSfads-GQT-8g" keySequence="CTRL+F8" command="_ks2Vb_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GnPdTEeSfads-GQT-8g" keySequence="CTRL+{" command="_ks265PdTEeSfads-GQT-8g">
+      <parameters xmi:id="_ks1GnfdTEeSfads-GQT-8g" elementId="Splitter.isHorizontal" name="Splitter.isHorizontal" value="false"/>
+    </bindings>
+    <bindings xmi:id="_ks1GnvdTEeSfads-GQT-8g" keySequence="CTRL+_" command="_ks265PdTEeSfads-GQT-8g">
+      <parameters xmi:id="_ks1Gn_dTEeSfads-GQT-8g" elementId="Splitter.isHorizontal" name="Splitter.isHorizontal" value="true"/>
+    </bindings>
+    <bindings xmi:id="_ks1GoPdTEeSfads-GQT-8g" keySequence="CTRL+=" command="_ks27KPdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GofdTEeSfads-GQT-8g" keySequence="ALT+ARROW_LEFT" command="_ks2U9_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GovdTEeSfads-GQT-8g" keySequence="ALT+SHIFT+Q S" command="_ks2VKPdTEeSfads-GQT-8g">
+      <parameters xmi:id="_ks1Go_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.search.ui.views.SearchView"/>
+    </bindings>
+    <bindings xmi:id="_ks1GpPdTEeSfads-GQT-8g" keySequence="ALT+SHIFT+Q Y" command="_ks2VKPdTEeSfads-GQT-8g">
+      <parameters xmi:id="_ks1GpfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.team.sync.views.SynchronizeView"/>
+    </bindings>
+    <bindings xmi:id="_ks1GpvdTEeSfads-GQT-8g" keySequence="ALT+SHIFT+Q Z" command="_ks2VKPdTEeSfads-GQT-8g">
+      <parameters xmi:id="_ks1Gp_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.team.ui.GenericHistoryView"/>
+    </bindings>
+    <bindings xmi:id="_ks1GqPdTEeSfads-GQT-8g" keySequence="ALT+SHIFT+Q H" command="_ks2VKPdTEeSfads-GQT-8g">
+      <parameters xmi:id="_ks1GqfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.ui.cheatsheets.views.CheatSheetView"/>
+    </bindings>
+    <bindings xmi:id="_ks1GqvdTEeSfads-GQT-8g" keySequence="ALT+SHIFT+Q C" command="_ks2VKPdTEeSfads-GQT-8g">
+      <parameters xmi:id="_ks1Gq_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.ui.console.ConsoleView"/>
+    </bindings>
+    <bindings xmi:id="_ks1GrPdTEeSfads-GQT-8g" keySequence="ALT+SHIFT+Q Q" command="_ks2VKPdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GrfdTEeSfads-GQT-8g" keySequence="ALT+SHIFT+Q X" command="_ks2VKPdTEeSfads-GQT-8g">
+      <parameters xmi:id="_ks1GrvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.ui.views.ProblemView"/>
+    </bindings>
+    <bindings xmi:id="_ks1Gr_dTEeSfads-GQT-8g" keySequence="ALT+SHIFT+Q O" command="_ks2VKPdTEeSfads-GQT-8g">
+      <parameters xmi:id="_ks1GsPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.ui.views.ContentOutline"/>
+    </bindings>
+  </bindingTables>
+  <bindingTables xmi:id="_ks1GsfdTEeSfads-GQT-8g" elementId="org.eclipse.tm.terminal.EditContext" bindingContext="_ks1HDvdTEeSfads-GQT-8g">
+    <bindings xmi:id="_ks1GsvdTEeSfads-GQT-8g" keySequence="CTRL+SHIFT+V" command="_ks27RfdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1Gs_dTEeSfads-GQT-8g" keySequence="ALT+ARROW_RIGHT" command="_ks27X_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GtPdTEeSfads-GQT-8g" keySequence="CTRL+SHIFT+C" command="_ks2Ve_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GtfdTEeSfads-GQT-8g" keySequence="SHIFT+INSERT" command="_ks27RfdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GtvdTEeSfads-GQT-8g" keySequence="CTRL+INSERT" command="_ks2Ve_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1Gt_dTEeSfads-GQT-8g" keySequence="ALT+ARROW_UP" command="_ks2UqfdTEeSfads-GQT-8g"/>
+  </bindingTables>
+  <bindingTables xmi:id="_ks1GuPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.textEditorScope" bindingContext="_ks1HD_dTEeSfads-GQT-8g">
+    <bindings xmi:id="_ks1GufdTEeSfads-GQT-8g" keySequence="CTRL+SHIFT+Y" command="_ks27TPdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GuvdTEeSfads-GQT-8g" keySequence="CTRL+NUMPAD_ADD" command="_ks27afdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1Gu_dTEeSfads-GQT-8g" keySequence="F2" command="_ks2VdvdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GvPdTEeSfads-GQT-8g" keySequence="CTRL+K" command="_ks2VMfdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GvfdTEeSfads-GQT-8g" keySequence="CTRL+SHIFT+X" command="_ks2UuvdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GvvdTEeSfads-GQT-8g" keySequence="CTRL+L" command="_ks26__dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1Gv_dTEeSfads-GQT-8g" keySequence="HOME" command="_ks27VvdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GwPdTEeSfads-GQT-8g" keySequence="CTRL+J" command="_ks2U-vdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GwfdTEeSfads-GQT-8g" keySequence="SHIFT+CR" command="_ks27VfdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GwvdTEeSfads-GQT-8g" keySequence="CTRL+SHIFT+K" command="_ks2VH_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1Gw_dTEeSfads-GQT-8g" keySequence="CTRL+SHIFT+Q" command="_ks2VXvdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GxPdTEeSfads-GQT-8g" keySequence="CTRL+NUMPAD_MULTIPLY" command="_ks2VXPdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GxfdTEeSfads-GQT-8g" keySequence="CTRL+NUMPAD_SUBTRACT" command="_ks27H_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GxvdTEeSfads-GQT-8g" keySequence="CTRL+F10" command="_ks27HfdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1Gx_dTEeSfads-GQT-8g" keySequence="CTRL+SHIFT+NUMPAD_DIVIDE" command="_ks2U8PdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GyPdTEeSfads-GQT-8g" keySequence="CTRL+ARROW_DOWN" command="_ks27q_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GyfdTEeSfads-GQT-8g" keySequence="CTRL+SHIFT+ARROW_LEFT" command="_ks27WPdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GyvdTEeSfads-GQT-8g" keySequence="CTRL+D" command="_ks2VBPdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1Gy_dTEeSfads-GQT-8g" keySequence="CTRL+SHIFT+ARROW_RIGHT" command="_ks2VRPdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GzPdTEeSfads-GQT-8g" keySequence="SHIFT+END" command="_ks27U_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GzfdTEeSfads-GQT-8g" keySequence="SHIFT+HOME" command="_ks27P_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1GzvdTEeSfads-GQT-8g" keySequence="CTRL+HOME" command="_ks2U2fdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1Gz_dTEeSfads-GQT-8g" keySequence="CTRL+END" command="_ks2VR_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G0PdTEeSfads-GQT-8g" keySequence="CTRL+BS" command="_ks2UqvdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G0fdTEeSfads-GQT-8g" keySequence="ALT+CTRL+J" command="_ks2VavdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G0vdTEeSfads-GQT-8g" keySequence="CTRL+ARROW_RIGHT" command="_ks2VWfdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G0_dTEeSfads-GQT-8g" keySequence="CTRL+ARROW_LEFT" command="_ks2Uq_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G1PdTEeSfads-GQT-8g" keySequence="CTRL+NUMPAD_DIVIDE" command="_ks2VJfdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G1fdTEeSfads-GQT-8g" keySequence="CTRL+SHIFT+J" command="_ks2VUPdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G1vdTEeSfads-GQT-8g" keySequence="CTRL+SHIFT+NUMPAD_MULTIPLY" command="_ks2VaPdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G1_dTEeSfads-GQT-8g" keySequence="CTRL+SHIFT+INSERT" command="_ks2VO_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G2PdTEeSfads-GQT-8g" keySequence="INSERT" command="_ks2U7_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G2fdTEeSfads-GQT-8g" keySequence="CTRL+SHIFT+CR" command="_ks27IPdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G2vdTEeSfads-GQT-8g" keySequence="ALT+/" command="_ks27WfdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G2_dTEeSfads-GQT-8g" keySequence="END" command="_ks27OfdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G3PdTEeSfads-GQT-8g" keySequence="ALT+ARROW_UP" command="_ks27mPdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G3fdTEeSfads-GQT-8g" keySequence="CTRL+DEL" command="_ks27AfdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G3vdTEeSfads-GQT-8g" keySequence="CTRL+ARROW_UP" command="_ks2VI_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G3_dTEeSfads-GQT-8g" keySequence="ALT+CTRL+ARROW_UP" command="_ks27dvdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G4PdTEeSfads-GQT-8g" keySequence="ALT+ARROW_DOWN" command="_ks2VQvdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G4fdTEeSfads-GQT-8g" keySequence="ALT+CTRL+ARROW_DOWN" command="_ks27cPdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G4vdTEeSfads-GQT-8g" keySequence="CTRL+SHIFT+DEL" command="_ks268PdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G4_dTEeSfads-GQT-8g" keySequence="ALT+SHIFT+A" command="_ks2U0vdTEeSfads-GQT-8g"/>
+  </bindingTables>
+  <bindingTables xmi:id="_ks1G5PdTEeSfads-GQT-8g" elementId="org.eclipse.tm.terminal.TerminalContext" bindingContext="_ks1swPdTEeSfads-GQT-8g">
+    <bindings xmi:id="_ks1G5fdTEeSfads-GQT-8g" keySequence="ALT+L" command="_ks2Uw_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G5vdTEeSfads-GQT-8g" keySequence="ALT+V" command="_ks2Uw_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G5_dTEeSfads-GQT-8g" keySequence="ALT+P" command="_ks2Uw_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G6PdTEeSfads-GQT-8g" keySequence="ALT+W" command="_ks2Uw_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G6fdTEeSfads-GQT-8g" keySequence="ALT+S" command="_ks2Uw_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G6vdTEeSfads-GQT-8g" keySequence="ALT+Y" command="_ks2Uw_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G6_dTEeSfads-GQT-8g" keySequence="ALT+T" command="_ks2Uw_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G7PdTEeSfads-GQT-8g" keySequence="ALT+N" command="_ks2Uw_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G7fdTEeSfads-GQT-8g" keySequence="ALT+R" command="_ks2Uw_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G7vdTEeSfads-GQT-8g" keySequence="ALT+D" command="_ks2Uw_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G7_dTEeSfads-GQT-8g" keySequence="ALT+E" command="_ks2Uw_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G8PdTEeSfads-GQT-8g" keySequence="ALT+F" command="_ks2Uw_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G8fdTEeSfads-GQT-8g" keySequence="ALT+G" command="_ks2Uw_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G8vdTEeSfads-GQT-8g" keySequence="ALT+H" command="_ks2Uw_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G8_dTEeSfads-GQT-8g" keySequence="ALT+A" command="_ks2Uw_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G9PdTEeSfads-GQT-8g" keySequence="ALT+C" command="_ks2Uw_dTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G9fdTEeSfads-GQT-8g" keySequence="ALT+B" command="_ks2Uw_dTEeSfads-GQT-8g"/>
+  </bindingTables>
+  <bindingTables xmi:id="_ks1G9vdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesView" bindingContext="_ks1HEfdTEeSfads-GQT-8g">
+    <bindings xmi:id="_ks1G9_dTEeSfads-GQT-8g" keySequence="CTRL+V" command="_ks2UuPdTEeSfads-GQT-8g"/>
+    <bindings xmi:id="_ks1G-PdTEeSfads-GQT-8g" keySequence="CTRL+C" command="_ks2VgfdTEeSfads-GQT-8g"/>
+  </bindingTables>
+  <bindingTables xmi:id="_ks1G-fdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.ReflogView" bindingContext="_ks1HEPdTEeSfads-GQT-8g">
+    <bindings xmi:id="_ks1G-vdTEeSfads-GQT-8g" keySequence="CTRL+C" command="_ks2VF_dTEeSfads-GQT-8g"/>
+  </bindingTables>
+  <bindingTables xmi:id="_ks1G-_dTEeSfads-GQT-8g" bindingContext="_ks1sxPdTEeSfads-GQT-8g"/>
+  <bindingTables xmi:id="_ks1G_PdTEeSfads-GQT-8g" bindingContext="_ks1sxfdTEeSfads-GQT-8g"/>
+  <bindingTables xmi:id="_ks1G_fdTEeSfads-GQT-8g" bindingContext="_ks1sxvdTEeSfads-GQT-8g"/>
+  <bindingTables xmi:id="_ks1G_vdTEeSfads-GQT-8g" bindingContext="_ks1sx_dTEeSfads-GQT-8g"/>
+  <bindingTables xmi:id="_ks1G__dTEeSfads-GQT-8g" bindingContext="_ks1syPdTEeSfads-GQT-8g"/>
+  <bindingTables xmi:id="_ks1HAPdTEeSfads-GQT-8g" bindingContext="_ks1syfdTEeSfads-GQT-8g"/>
+  <bindingTables xmi:id="_ks1HAfdTEeSfads-GQT-8g" bindingContext="_ks1syvdTEeSfads-GQT-8g"/>
+  <bindingTables xmi:id="_ks1HAvdTEeSfads-GQT-8g" bindingContext="_ks1sy_dTEeSfads-GQT-8g"/>
+  <bindingTables xmi:id="_ks1HA_dTEeSfads-GQT-8g" bindingContext="_ks1szPdTEeSfads-GQT-8g"/>
+  <bindingTables xmi:id="_ks1HBPdTEeSfads-GQT-8g" bindingContext="_ks1szfdTEeSfads-GQT-8g"/>
+  <bindingTables xmi:id="_ks1HBfdTEeSfads-GQT-8g" bindingContext="_ks1szvdTEeSfads-GQT-8g"/>
+  <bindingTables xmi:id="_ks1HBvdTEeSfads-GQT-8g" bindingContext="_ks1sz_dTEeSfads-GQT-8g"/>
+  <bindingTables xmi:id="_ks1HB_dTEeSfads-GQT-8g" bindingContext="_ks1s0PdTEeSfads-GQT-8g"/>
+  <bindingTables xmi:id="_ks1HCPdTEeSfads-GQT-8g" bindingContext="_ks1s0fdTEeSfads-GQT-8g"/>
+  <rootContext xmi:id="_ks1HCfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.contexts.dialogAndWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" name="In Dialogs and Windows" description="Either a dialog or a window is open">
+    <children xmi:id="_ks1HCvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.contexts.window" contributorURI="platform:/plugin/org.eclipse.ui.workbench" name="In Windows" description="A window is open">
+      <children xmi:id="_ks1HC_dTEeSfads-GQT-8g" elementId="org.eclipse.e4.ui.contexts.views" contributorURI="platform:/plugin/org.eclipse.ui.workbench" name="%bindingcontext.name.bindingView"/>
+      <children xmi:id="_ks1HDPdTEeSfads-GQT-8g" elementId="org.eclipse.compare.compareEditorScope" name="Comparing in an Editor" description="Comparing in an Editor"/>
+      <children xmi:id="_ks1HDfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.console.ConsoleView" name="In Console View" description="In Console View"/>
+      <children xmi:id="_ks1HDvdTEeSfads-GQT-8g" elementId="org.eclipse.tm.terminal.EditContext" name="Terminal Widget in Focus" description="Show modified keyboard shortcuts in context menu"/>
+      <children xmi:id="_ks1HD_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.textEditorScope" name="Editing Text" description="Editing Text Context"/>
+      <children xmi:id="_ks1HEPdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.ReflogView" name="In Git Reflog View"/>
+      <children xmi:id="_ks1HEfdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesView" name="In Git Repositories View"/>
+      <children xmi:id="_ks1swPdTEeSfads-GQT-8g" elementId="org.eclipse.tm.terminal.TerminalContext" name="Terminal Typing Connected" description="Override ALT+x menu access keys while typing into the Terminal"/>
+    </children>
+    <children xmi:id="_ks1swfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.contexts.dialog" contributorURI="platform:/plugin/org.eclipse.ui.workbench" name="In Dialogs" description="A dialog is open"/>
+  </rootContext>
+  <rootContext xmi:id="_ks1swvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.contexts.workbenchMenu" name="Workbench Menu" description="When no Workbench windows are active"/>
+  <rootContext xmi:id="_ks1sw_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.contexts.actionSet" name="Action Set" description="Parent context for action sets"/>
+  <rootContext xmi:id="_ks1sxPdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.gitaction" name="Auto::org.eclipse.egit.ui.gitaction"/>
+  <rootContext xmi:id="_ks1sxfdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.navigation" name="Auto::org.eclipse.egit.ui.navigation"/>
+  <rootContext xmi:id="_ks1sxvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.cheatsheets.actionSet" name="Auto::org.eclipse.ui.cheatsheets.actionSet"/>
+  <rootContext xmi:id="_ks1sx_dTEeSfads-GQT-8g" elementId="org.eclipse.search.searchActionSet" name="Auto::org.eclipse.search.searchActionSet"/>
+  <rootContext xmi:id="_ks1syPdTEeSfads-GQT-8g" elementId="org.eclipse.team.ui.actionSet" name="Auto::org.eclipse.team.ui.actionSet"/>
+  <rootContext xmi:id="_ks1syfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.actionSet.annotationNavigation" name="Auto::org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+  <rootContext xmi:id="_ks1syvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.actionSet.navigation" name="Auto::org.eclipse.ui.edit.text.actionSet.navigation"/>
+  <rootContext xmi:id="_ks1sy_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo" name="Auto::org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+  <rootContext xmi:id="_ks1szPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.NavigateActionSet" name="Auto::org.eclipse.ui.NavigateActionSet"/>
+  <rootContext xmi:id="_ks1szfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.actionSet.keyBindings" name="Auto::org.eclipse.ui.actionSet.keyBindings"/>
+  <rootContext xmi:id="_ks1szvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.WorkingSetModificationActionSet" name="Auto::org.eclipse.ui.WorkingSetModificationActionSet"/>
+  <rootContext xmi:id="_ks1sz_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.WorkingSetActionSet" name="Auto::org.eclipse.ui.WorkingSetActionSet"/>
+  <rootContext xmi:id="_ks1s0PdTEeSfads-GQT-8g" elementId="org.eclipse.ui.actionSet.openFiles" name="Auto::org.eclipse.ui.actionSet.openFiles"/>
+  <rootContext xmi:id="_ks1s0fdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.actionSet.presentation" name="Auto::org.eclipse.ui.edit.text.actionSet.presentation"/>
+  <descriptors xmi:id="_ks1s0vdTEeSfads-GQT-8g" elementId="org.eclipse.e4.ui.compatibility.editor" allowMultiple="true" category="org.eclipse.e4.primaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor">
+    <tags>Editor</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s0_dTEeSfads-GQT-8g" elementId="com.cisco.cide.ui.terminal.views.CiscoTerminalView" label="Cisco Terminal" iconURI="platform:/plugin/com.cisco.cide.ui.terminal/icons/full/eview16/terminal_view.gif" allowMultiple="true" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s1PdTEeSfads-GQT-8g" elementId="com.cisco.cide.ui.terminal.views.TerminalMultiplexerView" label="Terminal Multiplexer" iconURI="platform:/plugin/com.cisco.cide.ui.terminal/icons/full/eview16/terminal_view.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s1fdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.views.GraphOverview" label="Graph Overview" iconURI="platform:/plugin/com.cisco.vmmaestro/icons/overview.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s1vdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.views.RosterView" label="Simulations" iconURI="platform:/plugin/com.cisco.vmmaestro/icons/roster_view.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s1_dTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.topoeditor.VIRLNodeEditor" label="Node Editor" iconURI="platform:/plugin/com.cisco.vmmaestro/icons/platform.png" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s2PdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.navigator.CommonNavigator" label="Projects" iconURI="platform:/plugin/com.cisco.vmmaestro/icons/topology.png" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s2fdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.views.ANKVisualization" label="AutoNetkit Visualization" iconURI="platform:/plugin/com.cisco.vmmaestro/icons/autonetkit.png" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s2vdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.views.LiveVisualization" label="Live Visualization" iconURI="platform:/plugin/com.cisco.vmmaestro/icons/autonetkit.png" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s2_dTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.views.VNCViewer" label="VNC Viewer" iconURI="platform:/plugin/com.cisco.vmmaestro/icons/vnc.png" allowMultiple="true" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s3PdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesView" label="Git Repositories" iconURI="platform:/plugin/org.eclipse.egit.ui/icons/eview16/repo_rep.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Git</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s3fdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.StagingView" label="Git Staging" iconURI="platform:/plugin/org.eclipse.egit.ui/icons/eview16/staging.png" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Git</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s3vdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.InteractiveRebaseView" label="Git Interactive Rebase" iconURI="platform:/plugin/org.eclipse.egit.ui/icons/eview16/rebase_interactive.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Git</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s3_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.CompareTreeView" label="Git Tree Compare" iconURI="platform:/plugin/org.eclipse.egit.ui/icons/obj16/gitrepository.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Git</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s4PdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.ReflogView" label="Git Reflog" iconURI="platform:/plugin/org.eclipse.egit.ui/icons/eview16/reflog.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Git</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s4fdTEeSfads-GQT-8g" elementId="org.eclipse.gef.ui.palette_view" label="Palette" iconURI="platform:/plugin/org.eclipse.gef/icons/palette_view.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s4vdTEeSfads-GQT-8g" elementId="org.eclipse.help.ui.HelpView" label="Help" iconURI="platform:/plugin/org.eclipse.help.ui/icons/view16/help_view.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Help</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s4_dTEeSfads-GQT-8g" elementId="org.eclipse.search.SearchResultView" label="Classic Search" iconURI="platform:/plugin/org.eclipse.search/icons/full/eview16/searchres.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s5PdTEeSfads-GQT-8g" elementId="org.eclipse.search.ui.views.SearchView" label="Search" iconURI="platform:/plugin/org.eclipse.search/icons/full/eview16/searchres.gif" allowMultiple="true" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s5fdTEeSfads-GQT-8g" elementId="org.eclipse.team.sync.views.SynchronizeView" label="Synchronize" iconURI="platform:/plugin/org.eclipse.team.ui/icons/full/eview16/synch_synch.gif" allowMultiple="true" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Team</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s5vdTEeSfads-GQT-8g" elementId="org.eclipse.team.ui.GenericHistoryView" label="History" iconURI="platform:/plugin/org.eclipse.team.ui/icons/full/eview16/history_view.gif" allowMultiple="true" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Team</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s5_dTEeSfads-GQT-8g" elementId="org.eclipse.tm.terminal.view.TerminalView" label="Terminal" iconURI="platform:/plugin/org.eclipse.tm.terminal.view/icons/cview16/terminal_view.gif" allowMultiple="true" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Terminal</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s6PdTEeSfads-GQT-8g" elementId="org.eclipse.ui.internal.introview" label="Welcome" iconURI="platform:/plugin/org.eclipse.ui/icons/full/eview16/defaultview_misc.png" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s6fdTEeSfads-GQT-8g" elementId="org.eclipse.ui.browser.view" label="Internal Web Browser" iconURI="platform:/plugin/org.eclipse.ui.browser/icons/obj16/internal_browser.gif" allowMultiple="true" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s6vdTEeSfads-GQT-8g" elementId="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="Cheat Sheets" iconURI="platform:/plugin/org.eclipse.ui.cheatsheets/icons/view16/cheatsheet_view.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Help</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s6_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.console.ConsoleView" label="Console" iconURI="platform:/plugin/org.eclipse.ui.console/icons/full/cview16/console_view.png" allowMultiple="true" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s7PdTEeSfads-GQT-8g" elementId="org.eclipse.ui.views.ProgressView" label="Progress" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/pview.png" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s7fdTEeSfads-GQT-8g" elementId="org.eclipse.ui.views.ResourceNavigator" label="Navigator" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/filenav_nav.png" category="org.eclipse.e4.primaryNavigationStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s7vdTEeSfads-GQT-8g" elementId="org.eclipse.ui.views.BookmarkView" label="Bookmarks" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/bkmrk_nav.png" allowMultiple="true" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s7_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.views.TaskList" label="Tasks" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/tasks_tsk.png" allowMultiple="true" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s8PdTEeSfads-GQT-8g" elementId="org.eclipse.ui.views.ProblemView" label="Problems" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/problems_view.png" allowMultiple="true" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s8fdTEeSfads-GQT-8g" elementId="org.eclipse.ui.views.AllMarkersView" label="Markers" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/problems_view.png" allowMultiple="true" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s8vdTEeSfads-GQT-8g" elementId="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer" iconURI="platform:/plugin/org.eclipse.ui.navigator.resources/icons/full/eview16/resource_persp.gif" category="org.eclipse.e4.primaryNavigationStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s8_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.views.PropertySheet" label="Properties" iconURI="platform:/plugin/org.eclipse.ui.views/icons/full/eview16/prop_ps.png" allowMultiple="true" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_ks1s9PdTEeSfads-GQT-8g" elementId="org.eclipse.ui.views.ContentOutline" label="Outline" iconURI="platform:/plugin/org.eclipse.ui.views/icons/full/eview16/outline_co.png" category="org.eclipse.e4.secondaryNavigationStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <commands xmi:id="_ks2UovdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.select.pageUp" commandName="Select Page Up" description="Select to the top of the page" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2Uo_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.history.ResetQuickdiffBaseline" commandName="Reset quickdiff baseline" category="_ks270_dTEeSfads-GQT-8g">
+    <parameters xmi:id="_ks2UpPdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.history.ResetQuickdiffBaselineTarget" name="Reset target (HEAD, HEAD^1)" optional="false"/>
+  </commands>
+  <commands xmi:id="_ks2UpfdTEeSfads-GQT-8g" elementId="org.eclipse.search.ui.openFileSearchPage" commandName="File Search" description="Open the Search dialog's file search page" category="_ks27x_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2UpvdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesViewAddRepository" commandName="Add a Git Repository" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2Up_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.ide.copyBuildIdCommand" commandName="Copy Build Id To Clipboard" description="Copies the build id to the clipboard." category="_ks27xvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2UqPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.select.textEnd" commandName="Select Text End" description="Select to the end of the text" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2UqfdTEeSfads-GQT-8g" elementId="org.eclipse.tm.terminal.maximize" commandName="Maximize Active View or Editor" category="_ks27xfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2UqvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.deletePreviousWord" commandName="Delete Previous Word" description="Delete the previous word" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2Uq_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.goto.wordPrevious" commandName="Previous Word" description="Go to the previous word" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2UrPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.window.preferences" commandName="Preferences" description="Open the preferences dialog" category="_ks270vdTEeSfads-GQT-8g">
+    <parameters xmi:id="_ks2UrfdTEeSfads-GQT-8g" elementId="preferencePageId" name="Preference Page"/>
+  </commands>
+  <commands xmi:id="_ks2UrvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.delimiter.unix" commandName="Convert Line Delimiters to Unix (LF, \n, 0A, &#xb6;)" description="Converts the line delimiters to Unix (LF, \n, 0A, &#xb6;)" category="_ks270PdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2Ur_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.commit.Squash" commandName="Squash Commits" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2UsPdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.history.Edit" commandName="Edit Commit" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2UsfdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.ui.commands.stopsimulation" commandName="Stop Simulations" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2UsvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.copy" commandName="Copy" description="Copy the selection to the clipboard" category="_ks27xvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2Us_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.window.nextView" commandName="Next View" description="Switch to the next view" category="_ks270vdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2UtPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.revertToSaved" commandName="Revert to Saved" description="Revert to the last saved state" category="_ks27xvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2UtfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.views.properties.NewPropertySheetCommand" commandName="Properties" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2UtvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.navigate.addToWorkingSet" commandName="Add to Working Set" description="Adds the selected object to a working set." category="_ks27xvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2Ut_dTEeSfads-GQT-8g" elementId="org.eclipse.team.ui.TeamSynchronizingPerspective" commandName="Team Synchronizing" description="Open the Team Synchronizing Perspective" category="_ks27zPdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2UuPdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesViewPaste" commandName="Paste Repository Path or URI" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2UufdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.showChangeRulerInformation" commandName="Show Quick Diff Ruler Tooltip" description="Displays quick diff or revision information for the caret line in a focused hover" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2UuvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.upperCase" commandName="To Upper Case" description="Changes the selection to upper case" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2Uu_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.ConfigureFetch" commandName="Configure Upstream Fetch" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2UvPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.navigate.goInto" commandName="Go Into" description="Navigate into the selected item" category="_ks27zvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2UvfdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.ui.commands.showTopologyLabelsCommand" commandName="Show Topology Labels" category="_ks270_dTEeSfads-GQT-8g">
+    <parameters xmi:id="_ks2UvvdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.ui.showtopology.commandParameter" name="augmentation parameter"/>
+  </commands>
+  <commands xmi:id="_ks2Uv_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.ConfigureUpstreamPush" commandName="Configure Upstream Push" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2UwPdTEeSfads-GQT-8g" elementId="org.eclipse.gef.ui.palette_view" commandName="Palette" category="_ks27w_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2UwfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.select.windowEnd" commandName="Select Window End" description="Select to the end of the window" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2UwvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.window.minimizePart" commandName="Minimize Active View or Editor" description="Minimizes the active view or editor" category="_ks270vdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2Uw_dTEeSfads-GQT-8g" elementId="org.eclipse.tm.terminal.command1" commandName="Terminal view insert" category="_ks27xfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2UxPdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.ui.resetSubTypeCommand" commandName="Reset Node Subtype" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2UxfdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.Untrack" commandName="Untrack" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2UxvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.window.showSystemMenu" commandName="Show System Menu" description="Show the system menu" category="_ks270vdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2Ux_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.history.OpenInCommitViewerCommand" commandName="Open in Commit Viewer" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2UyPdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.ui.alignment.command" commandName="Alignment" category="_ks270_dTEeSfads-GQT-8g">
+    <parameters xmi:id="_ks2UyfdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.ui.alignment.commandParameter" name="Alignment Parameter"/>
+  </commands>
+  <commands xmi:id="_ks2UyvdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.terminal.ui.setfontcommand" commandName="Set terminal font" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2Uy_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.window.savePerspective" commandName="Save Perspective As" description="Save the current perspective" category="_ks270vdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2UzPdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.internal.reflog.CheckoutCommand" commandName="Checkout" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2UzfdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.ui.hightlight" commandName="Highlight Connection" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2UzvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.move" commandName="Move..." description="Move the selected item" category="_ks270PdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2Uz_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.command.configureTrace" commandName="Configure Git Debug Trace" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U0PdTEeSfads-GQT-8g" elementId="org.eclipse.ui.navigate.linkWithEditor" commandName="Toggle Link with Editor " description="Toggles linking of a view's selection with the active editor's selection" category="_ks27zvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U0fdTEeSfads-GQT-8g" elementId="org.eclipse.compare.ignoreWhiteSpace" commandName="Ignore White Space" description="Ignore white space where applicable" category="_ks270fdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U0vdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.toggleBlockSelectionMode" commandName="Toggle Block Selection" description="Toggle block / column selection in the current text editor" category="_ks27xvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U0_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesViewRefresh" commandName="Refresh" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U1PdTEeSfads-GQT-8g" elementId="org.eclipse.ui.navigate.goToResource" commandName="Go to" description="Go to a particular resource in the active view" category="_ks27zvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U1fdTEeSfads-GQT-8g" elementId="org.eclipse.ui.window.resetPerspective" commandName="Reset Perspective" description="Reset the current perspective to its default state" category="_ks270vdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U1vdTEeSfads-GQT-8g" elementId="org.eclipse.ui.project.buildLast" commandName="Repeat Working Set Build" description="Repeat the last working set build" category="_ks27xPdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U1_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.project.buildProject" commandName="Build Project" description="Build the selected project" category="_ks27xPdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U2PdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.CompareIndexWithHead" commandName="Compare File in Git Index with HEAD Revision" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U2fdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.goto.textStart" commandName="Text Start" description="Go to the beginning of the text" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U2vdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.paste" commandName="Paste" description="Paste from the clipboard" category="_ks27xvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U2_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.part.nextPage" commandName="Next Page" description="Switch to the next page" category="_ks27zvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U3PdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.history.CreateBranch" commandName="Create Branch" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U3fdTEeSfads-GQT-8g" elementId="org.eclipse.ui.navigate.previous" commandName="Previous" description="Navigate to the previous item" category="_ks27zvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U3vdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.clean" commandName="Clean..." category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U3_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesViewClone" commandName="Clone a Git Repository" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U4PdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.rename" commandName="Rename" description="Rename the selected item" category="_ks270PdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U4fdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.clear.mark" commandName="Clear Mark" description="Clear the mark" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U4vdTEeSfads-GQT-8g" elementId="org.eclipse.ui.project.buildAll" commandName="Build All" description="Build all projects" category="_ks27xPdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U4_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.history.OpenInTextEditorCommand" commandName="Open in Text Editor" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U5PdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesViewRemove" commandName="Remove Repository" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U5fdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.ui.commands.newTopologyProjectCommand" commandName="New Topology Folder" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U5vdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.cut.line.to.beginning" commandName="Cut to Beginning of Line" description="Cut to the beginning of a line of text" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U5_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesViewCreateRepository" commandName="Create a Repository" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U6PdTEeSfads-GQT-8g" elementId="org.eclipse.ui.editors.revisions.rendering.cycle" commandName="Cycle Revision Coloring Mode" description="Cycles through the available coloring modes for revisions" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U6fdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.PushTags" commandName="Push Tags..." category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U6vdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.ContinueRebase" commandName="Continue Rebase" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U6_dTEeSfads-GQT-8g" elementId="org.eclipse.help.ui.closeTray" commandName="Close User Assistance Tray" description="Close the user assistance tray containing context help information and cheat sheets." category="_ks271PdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U7PdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.history.CreatePatch" commandName="Create Patch" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U7fdTEeSfads-GQT-8g" elementId="org.eclipse.ltk.ui.refactoring.commands.moveResources" commandName="Move Resources" description="Move the selected resources and notify LTK participants." category="_ks27zfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U7vdTEeSfads-GQT-8g" elementId="org.eclipse.ui.file.restartWorkbench" commandName="Restart" description="Restart the workbench" category="_ks270PdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U7_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.toggleOverwrite" commandName="Toggle Overwrite" description="Toggle overwrite mode" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U8PdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.folding.collapse_all" commandName="Collapse All" description="Collapses all folded regions" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U8fdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesViewClearCredentials" commandName="Clear Credentials" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U8vdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesViewOpenInEditor" commandName="Open in Editor" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U8_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.window.showViewMenu" commandName="Show View Menu" description="Show the view menu" category="_ks270vdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U9PdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.Commit" commandName="Commit..." category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U9fdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.submodule.update" commandName="Update Submodule" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U9vdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.shiftRight" commandName="Shift Right" description="Shift a block of text to the right" category="_ks27xvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U9_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.navigate.backwardHistory" commandName="Backward History" description="Move backward in the editor navigation history" category="_ks27zvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U-PdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.Pull" commandName="Pull" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U-fdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.removeTrailingWhitespace" commandName="Remove Trailing Whitespace" description="Removes the trailing whitespace of each line" category="_ks270PdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U-vdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.findIncremental" commandName="Incremental Find" description="Incremental find" category="_ks27xvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U-_dTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.ui.commands.showTopologyLabelsCommandExcludedNodes" commandName="Show Topology Labels Excluded Nodes" category="_ks270_dTEeSfads-GQT-8g">
+    <parameters xmi:id="_ks2U_PdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.ui.showtopology.commandParameter" name="augmentation parameter"/>
+  </commands>
+  <commands xmi:id="_ks2U_fdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.swap.mark" commandName="Swap Mark" description="Swap the mark with the cursor position" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U_vdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.ui.commands.search.expandAll" commandName="Expand All" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2U__dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesViewConfigureFetch" commandName="Configure Fetch..." category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VAPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.shiftLeft" commandName="Shift Left" description="Shift a block of text to the left" category="_ks27xvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VAfdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.Push" commandName="Push" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VAvdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesViewNewRemote" commandName="Create Remote..." category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VA_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.stash.drop" commandName="Delete Stashed Commit..." category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VBPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.delete.line" commandName="Delete Line" description="Delete a line of text" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VBfdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.history.RenameBranch" commandName="Rename Branch..." category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VBvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.navigate.expandAll" commandName="Expand All" description="Expand the current tree" category="_ks27zvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VB_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.file.saveAll" commandName="Save All" description="Save all current contents" category="_ks270PdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VCPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.file.closeOthers" commandName="Close Others" description="Close all editors except the one that is active" category="_ks270PdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VCfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.editors.quickdiff.revertLine" commandName="Revert Line" description="Revert the current line" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VCvdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.SimpleFetch" commandName="Fetch from Upstream" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VC_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.window.previousEditor" commandName="Previous Editor" description="Switch to the previous editor" category="_ks270vdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VDPdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.ui.commands.launchSimulationCommand" commandName="Launch Simulation" category="_ks270_dTEeSfads-GQT-8g">
+    <parameters xmi:id="_ks2VDfdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.ui.launch.commandparameter" name="launch parameter"/>
+  </commands>
+  <commands xmi:id="_ks2VDvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.findReplace" commandName="Find and Replace" description="Find and replace text" category="_ks27xvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VD_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.MergeTool" commandName="Merge Tool" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VEPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.ide.OpenMarkersView" commandName="Open Another" description="Open another view" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VEfdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.command.shareProject" commandName="Share with Git" description="Share the project using Git" category="_ks270_dTEeSfads-GQT-8g">
+    <parameters xmi:id="_ks2VEvdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.command.projectNameParameter" name="Project" optional="false"/>
+  </commands>
+  <commands xmi:id="_ks2VE_dTEeSfads-GQT-8g" elementId="org.eclipse.equinox.p2.ui.sdk.installationDetails" commandName="Installation Details" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VFPdTEeSfads-GQT-8g" elementId="org.eclipse.team.ui.synchronizeAll" commandName="Synchronize..." description="Synchronize resources in the workspace with another location" category="_ks27wvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VFfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.window.nextEditor" commandName="Next Editor" description="Switch to the next editor" category="_ks270vdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VFvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.project.closeUnrelatedProjects" commandName="Close Unrelated Projects" description="Close unrelated projects" category="_ks27xPdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VF_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.internal.reflog.CopyCommand" commandName="Copy SHA-1" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VGPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.help.helpContents" commandName="Help Contents" description="Open the help contents" category="_ks271PdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VGfdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.Reset" commandName="Reset..." category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VGvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.delete" commandName="Delete" description="Delete the selection" category="_ks27xvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VG_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.delete.line.to.beginning" commandName="Delete to Beginning of Line" description="Delete to the beginning of a line of text" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VHPdTEeSfads-GQT-8g" elementId="org.eclipse.search.ui.performTextSearchWorkspace" commandName="Find Text in Workspace" description="Searches the files in the workspace for specific text." category="_ks27x_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VHfdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.RenameBranch" commandName="Rename Branch" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VHvdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.Synchronize" commandName="Synchronize" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VH_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.findPrevious" commandName="Find Previous" description="Find previous item" category="_ks27xvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VIPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.addBookmark" commandName="Add Bookmark" description="Add a bookmark" category="_ks27xvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VIfdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.ui.commands.search.collapseAll" commandName="Collapse All" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VIvdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.commit.Revert" commandName="Revert Commit" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VI_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.scroll.lineUp" commandName="Scroll Line Up" description="Scroll up one line of text" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VJPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.set.mark" commandName="Set Mark" description="Set the mark" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VJfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.folding.toggle" commandName="Toggle Folding" description="Toggles folding in the current editor" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VJvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.toggleShowWhitespaceCharacters" commandName="Show Whitespace Characters" description="Shows whitespace characters in current text editor" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VJ_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.file.revert" commandName="Revert" description="Revert to the last saved state" category="_ks270PdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VKPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.views.showView" commandName="Show View" description="Shows a particular view" category="_ks27w_dTEeSfads-GQT-8g">
+    <parameters xmi:id="_ks2VKfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.views.showView.viewId" name="View"/>
+    <parameters xmi:id="_ks2VKvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.views.showView.secondaryId" name="Secondary Id"/>
+    <parameters xmi:id="_ks2VK_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.views.showView.makeFast" name="As FastView"/>
+  </commands>
+  <commands xmi:id="_ks2VLPdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.Ignore" commandName="Ignore" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VLfdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.commit.Edit" commandName="Edit Commit" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VLvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.navigate.showResourceByPath" commandName="Show Resource in Navigator" description="Show a resource in the Navigator given its path" category="_ks27zvdTEeSfads-GQT-8g">
+    <parameters xmi:id="_ks2VL_dTEeSfads-GQT-8g" elementId="resourcePath" name="Resource Path" typeId="org.eclipse.ui.ide.resourcePath" optional="false"/>
+  </commands>
+  <commands xmi:id="_ks2VMPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.delimiter.windows" commandName="Convert Line Delimiters to Windows (CRLF, \r\n, 0D0A, &#xa4;&#xb6;)" description="Converts the line delimiters to Windows (CRLF, \r\n, 0D0A, &#xa4;&#xb6;)" category="_ks270PdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VMfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.findNext" commandName="Find Next" description="Find next item" category="_ks27xvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VMvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.project.buildAutomatically" commandName="Build Automatically" description="Toggle the workspace build automatically function" category="_ks27xPdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VM_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.file.import" commandName="Import" description="Import" category="_ks270PdTEeSfads-GQT-8g">
+    <parameters xmi:id="_ks2VNPdTEeSfads-GQT-8g" elementId="importWizardId" name="Import Wizard"/>
+  </commands>
+  <commands xmi:id="_ks2VNfdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.history.Merge" commandName="Merge" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VNvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.window.switchToEditor" commandName="Switch to Editor" description="Switch to an editor" category="_ks270vdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VN_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.help.dynamicHelp" commandName="Dynamic Help" description="Open the dynamic help" category="_ks271PdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VOPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.navigate.nextSubTab" commandName="Next Sub-Tab" description="Switch to the next sub-tab" category="_ks27zvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VOfdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.history.CreateTag" commandName="Create Tag..." category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VOvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.addTask" commandName="Add Task..." description="Add a task" category="_ks27xvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VO_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.toggleInsertMode" commandName="Toggle Insert Mode" description="Toggle insert mode" category="_ks27xvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VPPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.cheatsheets.openCheatSheet" commandName="Open Cheat Sheet" description="Open a Cheat Sheet." category="_ks271PdTEeSfads-GQT-8g">
+    <parameters xmi:id="_ks2VPfdTEeSfads-GQT-8g" elementId="cheatSheetId" name="Identifier"/>
+  </commands>
+  <commands xmi:id="_ks2VPvdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesViewDelete" commandName="Delete Repository" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VP_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.file.closePart" commandName="Close Part" description="Close the active workbench part" category="_ks270vdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VQPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.editors.revisions.id.toggle" commandName="Toggle Revision Id Display" description="Toggles the display of the revision id" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VQfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.project.cleanAction" commandName="Build Clean" description="Discard old built state" category="_ks27xPdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VQvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.moveLineDown" commandName="Move Lines Down" description="Moves the selected lines down" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VQ_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.navigate.back" commandName="Back" description="Navigate back" category="_ks27zvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VRPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.select.wordNext" commandName="Select Next Word" description="Select the next word" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VRfdTEeSfads-GQT-8g" elementId="org.eclipse.equinox.p2.ui.sdk.update" commandName="Check for Updates" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VRvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.goto.pageDown" commandName="Page Down" description="Go down one page" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VR_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.goto.textEnd" commandName="Text End" description="Go to the end of the text" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VSPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.part.previousPage" commandName="Previous Page" description="Switch to the previous page" category="_ks27zvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VSfdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.ui.zoomin" commandName="Zoom In" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VSvdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.GarbageCollect" commandName="Collect Garbage" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VS_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.history.CompareWithWorkingTree" commandName="Compare with Working Directory" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VTPdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.Branch" commandName="Branch" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VTfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.project.closeProject" commandName="Close Project" description="Close the selected project" category="_ks27xPdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VTvdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesViewConfigurePush" commandName="Configure Push..." category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VT_dTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.feedback.submitReportCommand" commandName="Generate Problem Report" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VUPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.findIncrementalReverse" commandName="Incremental Find Reverse" description="Incremental find reverse" category="_ks27xvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VUfdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.stash.apply" commandName="Apply Stashed Changes" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VUvdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.ui.distributeNodesCommand" commandName="Distribute Nodes" category="_ks270_dTEeSfads-GQT-8g">
+    <parameters xmi:id="_ks2VU_dTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.ui.distribute.commandparameter" name="Distribute parameter"/>
+  </commands>
+  <commands xmi:id="_ks2VVPdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.commit.CherryPick" commandName="Cherry Pick" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VVfdTEeSfads-GQT-8g" elementId="org.eclipse.search.ui.performTextSearchFile" commandName="Find Text in File" description="Searches the files in the file for specific text." category="_ks27x_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VVvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.goto.columnNext" commandName="Next Column" description="Go to the next column" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VV_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.history.Squash" commandName="Squash Commits" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VWPdTEeSfads-GQT-8g" elementId="org.eclipse.search.ui.performTextSearchWorkingSet" commandName="Find Text in Working Set" description="Searches the files in the working set for specific text." category="_ks27x_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VWfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.goto.wordNext" commandName="Next Word" description="Go to the next word" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VWvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.cut.line" commandName="Cut Line" description="Cut a line of text" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VW_dTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.ui.group" commandName="Group to Site" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VXPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.folding.expand_all" commandName="Expand All" description="Expands all folded regions" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VXfdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.resetInterfaces" commandName="Reset All Interface Names" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VXvdTEeSfads-GQT-8g" elementId="org.eclipse.quickdiff.toggle" commandName="Quick Diff Toggle" description="Toggles quick diff information display on the line number ruler" category="_ks27xvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VX_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.deleteNext" commandName="Delete Next" description="Delete the next character" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VYPdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.FetchGerritChange" commandName="Fetch From Gerrit" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VYfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.help.quickStartAction" commandName="Welcome" description="Show help for beginning users" category="_ks271PdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VYvdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.history.Reword" commandName="Reword Commit" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VY_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.window.hideShowEditors" commandName="Toggle Editor Area Visibility" description="Toggles the visibility of the editor area" category="_ks270vdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VZPdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.ui.commands.updateANKConfigCommand" commandName="Build Initial Configurations" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VZfdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.OpenCommit" commandName="Open Git Commit" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VZvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.help.displayHelp" commandName="Display Help" description="Display a Help topic" category="_ks271PdTEeSfads-GQT-8g">
+    <parameters xmi:id="_ks2VZ_dTEeSfads-GQT-8g" elementId="href" name="Help topic href"/>
+  </commands>
+  <commands xmi:id="_ks2VaPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.folding.restore" commandName="Reset Structure" description="Resets the folding structure" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VafdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.select.pageDown" commandName="Select Page Down" description="Select to the bottom of the page" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VavdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.join.lines" commandName="Join Lines" description="Join lines of text" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2Va_dTEeSfads-GQT-8g" elementId="org.eclipse.help.ui.indexcommand" commandName="Index" description="Show Keyword Index" category="_ks271PdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VbPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.window.showContextMenu" commandName="Show Context Menu" description="Show the context menu" category="_ks270vdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VbfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.navigate.forward" commandName="Forward" description="Navigate forward" category="_ks27zvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VbvdTEeSfads-GQT-8g" elementId="org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals" commandName="Quick Fix" description="Suggest possible fixes for a problem" category="_ks27xvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2Vb_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.window.nextPerspective" commandName="Next Perspective" description="Switch to the next perspective" category="_ks270vdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VcPdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.ui.commands.showMapCommand" commandName="Hide/Show Map Background" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VcfdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.history.ShowVersions" commandName="Open" category="_ks270_dTEeSfads-GQT-8g">
+    <parameters xmi:id="_ks2VcvdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.history.CompareMode" name="Compare mode"/>
+  </commands>
+  <commands xmi:id="_ks2Vc_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.window.pinEditor" commandName="Pin Editor" description="Pin the current editor" category="_ks270vdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VdPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.navigate.nextTab" commandName="Next Tab" description="Switch to the next tab" category="_ks27zvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VdfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.window.quickAccess" commandName="Quick Access" description="Quickly access UI elements" category="_ks270vdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VdvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.showInformation" commandName="Show Tooltip Description" description="Displays information for the current caret location in a focused hover" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2Vd_dTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.ui.zoomout" commandName="Zoom Out" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VePdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.goto.pageUp" commandName="Page Up" description="Go up one page" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VefdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.submodule.sync" commandName="Sync Submodule" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VevdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.DeleteBranch" commandName="Delete Branch" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2Ve_dTEeSfads-GQT-8g" elementId="org.eclipse.tm.terminal.copy" commandName="Copy" category="_ks27xfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VfPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.goto.columnPrevious" commandName="Previous Column" description="Go to the previous column" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VffdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.ConfigureUpstreamFetch" commandName="Configure Upstream Fetch" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VfvdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.Discard" commandName="Replace with File in Git Index" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2Vf_dTEeSfads-GQT-8g" elementId="org.eclipse.compare.selectNextChange" commandName="Select Next Change" description="Select Next Change" category="_ks270fdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VgPdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesViewCreateBranch" commandName="Create Branch..." category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VgfdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesViewCopyPath" commandName="Copy Path to Clipboard" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VgvdTEeSfads-GQT-8g" elementId="org.eclipse.ltk.ui.refactoring.commands.renameResource" commandName="Rename Resource" description="Rename the selected resource and notify LTK participants." category="_ks27zfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2Vg_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.Rebase" commandName="Rebase on" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VhPdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.commit.ShowInHistory" commandName="Show in History" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VhfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.file.properties" commandName="Properties" description="Display the properties of the selected item" category="_ks270PdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VhvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.showRulerAnnotationInformation" commandName="Show Ruler Annotation Tooltip" description="Displays annotation information for the caret line in a focused hover" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2Vh_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.ReplaceWithHead" commandName="Replace with HEAD revision" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2ViPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.browser.openBrowser" commandName="Open Browser" description="Opens the default web browser." category="_ks270vdTEeSfads-GQT-8g">
+    <parameters xmi:id="_ks2VifdTEeSfads-GQT-8g" elementId="url" name="URL"/>
+    <parameters xmi:id="_ks2VivdTEeSfads-GQT-8g" elementId="browserId" name="Browser Id"/>
+    <parameters xmi:id="_ks2Vi_dTEeSfads-GQT-8g" elementId="name" name="Browser Name"/>
+    <parameters xmi:id="_ks2VjPdTEeSfads-GQT-8g" elementId="tooltip" name="Browser Tooltip"/>
+  </commands>
+  <commands xmi:id="_ks2VjfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.activeContextInfo" commandName="Show activeContext Info" category="_ks270vdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2VjvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.select.textStart" commandName="Select Text Start" description="Select to the beginning of the text" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks2Vj_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.history.DeleteBranch" commandName="Delete Branch..." category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks264PdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.contentAssist.contextInformation" commandName="Context Information" description="Show Context Information" category="_ks27xvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks264fdTEeSfads-GQT-8g" elementId="org.eclipse.ui.file.saveAs" commandName="Save As" description="Save the current contents to another location" category="_ks270PdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks264vdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.ConfigurePush" commandName="Configure Upstream Push" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks264_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.window.previousPerspective" commandName="Previous Perspective" description="Switch to the previous perspective" category="_ks270vdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks265PdTEeSfads-GQT-8g" elementId="org.eclipse.ui.window.splitEditor" commandName="Toggle Split Editor" description="Split or join the currently active editor." category="_ks270vdTEeSfads-GQT-8g">
+    <parameters xmi:id="_ks265fdTEeSfads-GQT-8g" elementId="Splitter.isHorizontal" name="Orientation" optional="false"/>
+  </commands>
+  <commands xmi:id="_ks265vdTEeSfads-GQT-8g" elementId="org.eclipse.ui.navigate.collapseAll" commandName="Collapse All" description="Collapse the current tree" category="_ks27zvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks265_dTEeSfads-GQT-8g" elementId="org.eclipse.compare.copyAllRightToLeft" commandName="Copy All from Right to Left" description="Copy All Changes from Right to Left" category="_ks270fdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks266PdTEeSfads-GQT-8g" elementId="org.eclipse.ui.window.maximizePart" commandName="Maximize Active View or Editor" description="Toggles maximize/restore state of active view or editor" category="_ks270vdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks266fdTEeSfads-GQT-8g" elementId="org.eclipse.ui.window.lockToolBar" commandName="Lock the Toolbars" description="Lock the Toolbars" category="_ks270vdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks266vdTEeSfads-GQT-8g" elementId="org.eclipse.ui.window.newEditor" commandName="New Editor" description="Open another editor on the active editor's input" category="_ks270vdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks266_dTEeSfads-GQT-8g" elementId="org.eclipse.search.ui.openSearchDialog" commandName="Open Search Dialog" description="Open the Search dialog" category="_ks27x_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks267PdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.contentAssist.proposals" commandName="Content Assist" description="Content Assist" category="_ks27xvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks267fdTEeSfads-GQT-8g" elementId="org.eclipse.ui.navigate.up" commandName="Up" description="Navigate up one level" category="_ks27zvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks267vdTEeSfads-GQT-8g" elementId="org.eclipse.ui.window.activateEditor" commandName="Activate Editor" description="Activate the editor" category="_ks270vdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks267_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.navigate.removeFromWorkingSet" commandName="Remove From Working Set" description="Removes the selected object from a working set." category="_ks27xvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks268PdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.delete.line.to.end" commandName="Delete to End of Line" description="Delete to the end of a line of text" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks268fdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.commit.CreateBranch" commandName="Create Branch..." category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks268vdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesLinkWithSelection" commandName="Link with Selection" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks268_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.ShowRepositoriesView" commandName="Show Git Repositories View" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks269PdTEeSfads-GQT-8g" elementId="org.eclipse.help.ui.ignoreMissingPlaceholders" commandName="Do not warn of missing documentation" description="Sets the help preferences to no longer report a warning about the current set of missing documents." category="_ks271PdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks269fdTEeSfads-GQT-8g" elementId="org.eclipse.ui.ide.deleteCompleted" commandName="Delete Completed Tasks" description="Delete the tasks marked as completed" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks269vdTEeSfads-GQT-8g" elementId="org.eclipse.compare.compareWithOther" commandName="Compare With Other Resource" description="Compare resources, clipboard contents or editors" category="_ks270fdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks269_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.CreatePatch" commandName="Create Patch" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks26-PdTEeSfads-GQT-8g" elementId="org.eclipse.ui.editors.revisions.author.toggle" commandName="Toggle Revision Author Display" description="Toggles the display of the revision author" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks26-fdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.goto.windowEnd" commandName="Window End" description="Go to the end of the window" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks26-vdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RebaseInteractiveCurrent" commandName="%RebaseInteractiveCurrentHandler.name" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks26-_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.perspectives.showPerspective" commandName="Show Perspective" description="Show a particular perspective" category="_ks27zPdTEeSfads-GQT-8g">
+    <parameters xmi:id="_ks26_PdTEeSfads-GQT-8g" elementId="org.eclipse.ui.perspectives.showPerspective.perspectiveId" name="Parameter"/>
+    <parameters xmi:id="_ks26_fdTEeSfads-GQT-8g" elementId="org.eclipse.ui.perspectives.showPerspective.newWindow" name="In New Window"/>
+  </commands>
+  <commands xmi:id="_ks26_vdTEeSfads-GQT-8g" elementId="org.eclipse.ui.window.openEditorDropDown" commandName="Quick Switch Editor" description="Open the editor drop down list" category="_ks270vdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks26__dTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.goto.line" commandName="Go to Line" description="Go to a specified line of text" category="_ks27zvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27APdTEeSfads-GQT-8g" elementId="org.eclipse.ui.editors.quickdiff.revert" commandName="Revert Lines" description="Revert the current selection, block or deleted lines" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27AfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.deleteNextWord" commandName="Delete Next Word" description="Delete the next word" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27AvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.select.lineUp" commandName="Select Line Up" description="Extend the selection to the previous line of text" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27A_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.SkipRebase" commandName="Skip commit and continue" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27BPdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.history.SetQuickdiffBaseline" commandName="Set quickdiff baseline" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27BfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.undo" commandName="Undo" description="Undo the last operation" category="_ks27xvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27BvdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.submodule.add" commandName="Add Submodule" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27B_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.cut.line.to.end" commandName="Cut to End of Line" description="Cut to the end of a line of text" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27CPdTEeSfads-GQT-8g" elementId="org.eclipse.compare.copyLeftToRight" commandName="Copy from Left to Right" description="Copy Current Change from Left to Right" category="_ks270fdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27CfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.file.newQuickMenu" commandName="New menu" description="Open the New menu" category="_ks270PdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27CvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.project.openProject" commandName="Open Project" description="Open a project" category="_ks27xPdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27C_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.file.openWorkspace" commandName="Switch Workspace" description="Open the workspace selection dialog" category="_ks270PdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27DPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.file.closeAll" commandName="Close All" description="Close all editors" category="_ks270PdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27DfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.cut" commandName="Cut" description="Cut the selection to the clipboard" category="_ks27xvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27DvdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.history.ShowBlame" commandName="Show Annotations" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27D_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.org.eclipse.egit.ui.AbortRebase" commandName="Abort Rebase" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27EPdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.ui.ungroup" commandName="Ungroup Site" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27EfdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.Merge" commandName="Merge" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27EvdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.ReplaceWithRef" commandName="Replace with branch, tag, or reference" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27E_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.project.properties" commandName="Properties" description="Display the properties of the selected item's project " category="_ks27xPdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27FPdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.history.CompareVersionsInTree" commandName="Compare in Tree" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27FfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.select.columnPrevious" commandName="Select Previous Column" description="Select the previous column" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27FvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly" commandName="Show Selected Element Only" description="Show Selected Element Only" category="_ks270vdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27F_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.file.export" commandName="Export" description="Export" category="_ks270PdTEeSfads-GQT-8g">
+    <parameters xmi:id="_ks27GPdTEeSfads-GQT-8g" elementId="exportWizardId" name="Export Wizard"/>
+  </commands>
+  <commands xmi:id="_ks27GfdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesToggleBranchHierarchy" commandName="Toggle Branch Representation" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27GvdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.ApplyPatch" commandName="Apply Patch" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27G_dTEeSfads-GQT-8g" elementId="org.eclipse.ltk.ui.refactoring.commands.deleteResources" commandName="Delete Resources" description="Delete the selected resources and notify LTK participants." category="_ks27zfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27HPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.file.print" commandName="Print" description="Print" category="_ks270PdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27HfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.showRulerContextMenu" commandName="Show Ruler Context Menu" description="Show the context menu for the ruler" category="_ks270vdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27HvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.ide.copyConfigCommand" commandName="Copy Configuration Data To Clipboard" description="Copies the configuration data (system properties, installed bundles, etc) to the clipboard." category="_ks27xvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27H_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.folding.collapse" commandName="Collapse" description="Collapses the folded region at the current selection" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27IPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.smartEnterInverse" commandName="Insert Line Above Current Line" description="Adds a new line above the current line" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27IfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.navigate.forwardHistory" commandName="Forward History" description="Move forward in the editor navigation history" category="_ks27zvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27IvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.window.spy" commandName="Show Contributing Plug-in" description="Shows contribution information for the currently selected element" category="_ks270vdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27I_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.help.helpSearch" commandName="Help Search" description="Open the help search" category="_ks271PdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27JPdTEeSfads-GQT-8g" elementId="org.eclipse.search.ui.performTextSearchProject" commandName="Find Text in Project" description="Searches the files in the project for specific text." category="_ks27x_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27JfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.goto.lineDown" commandName="Line Down" description="Go down one line of text" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27JvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.project.rebuildAll" commandName="Rebuild All" description="Rebuild all projects" category="_ks27xPdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27J_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.commit.Checkout" commandName="Checkout" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27KPdTEeSfads-GQT-8g" elementId="org.eclipse.gef.zoom_in" commandName="Zoom In" description="Zoom In" category="_ks27z_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27KfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.gotoLastEditPosition" commandName="Last Edit Location" description="Last edit location" category="_ks27zvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27KvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.open.hyperlink" commandName="Open Hyperlink" description="Opens the hyperlink at the caret location or opens a chooser if more than one hyperlink is available" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27K_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.openLocalFile" commandName="Open File..." description="Open a file" category="_ks270PdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27LPdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.Disconnect" commandName="Disconnect" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27LfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.ide.configureFilters" commandName="Configure Contents..." description="Configure the filters to apply to the markers view" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27LvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.navigate.previousTab" commandName="Previous Tab" description="Switch to the previous tab" category="_ks27zvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27L_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.dialogs.openMessageDialog" commandName="Open Message Dialog" description="Open a Message Dialog" category="_ks27yvdTEeSfads-GQT-8g">
+    <parameters xmi:id="_ks27MPdTEeSfads-GQT-8g" elementId="title" name="Title"/>
+    <parameters xmi:id="_ks27MfdTEeSfads-GQT-8g" elementId="message" name="Message"/>
+    <parameters xmi:id="_ks27MvdTEeSfads-GQT-8g" elementId="imageType" name="Image Type Constant" typeId="org.eclipse.ui.dialogs.Integer"/>
+    <parameters xmi:id="_ks27M_dTEeSfads-GQT-8g" elementId="defaultIndex" name="Default Button Index" typeId="org.eclipse.ui.dialogs.Integer"/>
+    <parameters xmi:id="_ks27NPdTEeSfads-GQT-8g" elementId="buttonLabel0" name="First Button Label"/>
+    <parameters xmi:id="_ks27NfdTEeSfads-GQT-8g" elementId="buttonLabel1" name="Second Button Label"/>
+    <parameters xmi:id="_ks27NvdTEeSfads-GQT-8g" elementId="buttonLabel2" name="Third Button Label"/>
+    <parameters xmi:id="_ks27N_dTEeSfads-GQT-8g" elementId="buttonLabel3" name="Fourth Button Label"/>
+    <parameters xmi:id="_ks27OPdTEeSfads-GQT-8g" elementId="cancelReturns" name="Return Value on Cancel"/>
+  </commands>
+  <commands xmi:id="_ks27OfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.goto.lineEnd" commandName="Line End" description="Go to the end of the line of text" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27OvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.file.refresh" commandName="Refresh" description="Refresh the selected items" category="_ks270PdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27O_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.commit.CreateTag" commandName="Create Tag..." category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27PPdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesViewChangeCredentials" commandName="Change Credentials" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27PfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.window.closeAllPerspectives" commandName="Close All Perspectives" description="Close all open perspectives" category="_ks270vdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27PvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.deletePrevious" commandName="Delete Previous" description="Delete the previous character" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27P_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.select.lineStart" commandName="Select Line Start" description="Select to the beginning of the line of text" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27QPdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.commit.Reword" commandName="Reword Commit" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27QfdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.CompareWithPrevious" commandName="Compare with Previous Revision" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27QvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.editors.lineNumberToggle" commandName="Show Line Numbers" description="Toggle display of line numbers" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27Q_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.select.columnNext" commandName="Select Next Column" description="Select the next column" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27RPdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesToggleBranchCommit" commandName="Toggle Latest Branch Commit" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27RfdTEeSfads-GQT-8g" elementId="org.eclipse.tm.terminal.paste" commandName="Paste" category="_ks27xfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27RvdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.history.PushCommit" commandName="Push Commit..." category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27R_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.Tag" commandName="Tag" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27SPdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.NoAssumeUnchanged" commandName="No Assume Unchanged" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27SfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.ide.showInSystemExplorer" commandName="Show In (System Explorer)" description="Show in system's explorer (file manager)" category="_ks27zvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27SvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.select.lineDown" commandName="Select Line Down" description="Extend the selection to the next line of text" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27S_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.window.showKeyAssist" commandName="Show Key Assist" description="Show the key assist dialog" category="_ks270vdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27TPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.lowerCase" commandName="To Lower Case" description="Changes the selection to lower case" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27TfdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.CompareWithIndex" commandName="Compare with Git Index" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27TvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.file.save" commandName="Save" description="Save the current contents" category="_ks270PdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27T_dTEeSfads-GQT-8g" elementId="org.eclipse.gef.zoom_out" commandName="Zoom Out" description="Zoom Out" category="_ks27z_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27UPdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.AddToIndex" commandName="Add to Git Index" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27UfdTEeSfads-GQT-8g" elementId="org.eclipse.team.ui.applyPatch" commandName="Apply Patch..." description="Apply a patch to one or more workspace projects." category="_ks27wvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27UvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.help.tipsAndTricksAction" commandName="Tips and Tricks" description="Open the tips and tricks help page" category="_ks271PdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27U_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.select.lineEnd" commandName="Select Line End" description="Select to the end of the line of text" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27VPdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.ui.commands.newTopologyCommand" commandName="New Topology File" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27VfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.smartEnter" commandName="Insert Line Below Current Line" description="Adds a new line below the current line" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27VvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.goto.lineStart" commandName="Line Start" description="Go to the start of the line of text" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27V_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesViewConfigureBranch" commandName="Configure Branch" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27WPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.select.wordPrevious" commandName="Select Previous Word" description="Select the previous word" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27WfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.hippieCompletion" commandName="Word Completion" description="Context insensitive completion" category="_ks27xvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27WvdTEeSfads-GQT-8g" elementId="org.eclipse.team.ui.synchronizeLast" commandName="Repeat last synchronization" description="Repeat the last synchronization" category="_ks27wvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27W_dTEeSfads-GQT-8g" elementId="org.eclipse.compare.selectPreviousChange" commandName="Select Previous Change" description="Select Previous Change" category="_ks270fdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27XPdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesViewConfigureGerritRemote" commandName="Gerrit Configuration..." category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27XfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.ide.configureColumns" commandName="Configure Columns..." description="Configure the columns in the markers view" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27XvdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.ReplaceWithCommit" commandName="Replace with commit" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27X_dTEeSfads-GQT-8g" elementId="org.eclipse.tm.terminal.quickaccess" commandName="Quick Access" category="_ks27xfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27YPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.file.exit" commandName="Exit" description="Exit the application" category="_ks270PdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27YfdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.CompareWithHead" commandName="Compare with HEAD Revision" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27YvdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesViewOpen" commandName="Open" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27Y_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.ShowHistory" commandName="Show in History" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27ZPdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.SimplePush" commandName="Push to Upstream" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27ZfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.window.previousView" commandName="Previous View" description="Switch to the previous view" category="_ks270vdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27ZvdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.PushHeadToGerrit" commandName="Push Current Head to Gerrit" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27Z_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.selectAll" commandName="Select All" description="Select all" category="_ks27xvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27aPdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.ShowBlame" commandName="Show Annotations" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27afdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.folding.expand" commandName="Expand" description="Expands the folded region at the current selection" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27avdTEeSfads-GQT-8g" elementId="org.eclipse.ui.project.rebuildProject" commandName="Rebuild Project" description="Rebuild the selected projects" category="_ks27xPdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27a_dTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.ui.commands.selectElements" commandName="Select Nodes" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27bPdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.internal.reflog.OpenInCommitViewerCommand" commandName="Open in Commit Viewer" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27bfdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.ui.layoutNodesCommand" commandName="Layout Nodes" category="_ks270_dTEeSfads-GQT-8g">
+    <parameters xmi:id="_ks27bvdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.ui.layout.commandparameter" name="layout parameter"/>
+  </commands>
+  <commands xmi:id="_ks27b_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.Fetch" commandName="Fetch" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27cPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.copyLineDown" commandName="Copy Lines" description="Duplicates the selected lines and moves the selection to the copy" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27cfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.help.installationDialog" commandName="Installation Information" description="Open the installation dialog" category="_ks271PdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27cvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.goto.lineUp" commandName="Line Up" description="Go up one line of text" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27c_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.goto.windowStart" commandName="Window Start" description="Go to the start of the window" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27dPdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesViewRebase" commandName="Rebase on" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27dfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.navigate.showInQuickMenu" commandName="Show In..." description="Open the Show In menu" category="_ks27zvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27dvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.copyLineUp" commandName="Duplicate Lines" description="Duplicates the selected lines and leaves the selection unchanged" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27d_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesViewRenameBranch" commandName="Rename Branch..." category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27ePdTEeSfads-GQT-8g" elementId="org.eclipse.ui.navigate.next" commandName="Next" description="Navigate to the next item" category="_ks27zvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27efdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.AssumeUnchanged" commandName="Assume Unchanged" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27evdTEeSfads-GQT-8g" elementId="org.eclipse.ui.window.closePerspective" commandName="Close Perspective" description="Close the current perspective" category="_ks270vdTEeSfads-GQT-8g">
+    <parameters xmi:id="_ks27e_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.window.closePerspective.perspectiveId" name="Perspective Id"/>
+  </commands>
+  <commands xmi:id="_ks27fPdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.ui.commands.showTopologyLabelsCommandIPv6" commandName="Show Topology Labels IPv6" category="_ks270_dTEeSfads-GQT-8g">
+    <parameters xmi:id="_ks27ffdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.ui.showtopology.commandParameter" name="augmentation parameter"/>
+  </commands>
+  <commands xmi:id="_ks27fvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.cheatsheets.openCheatSheetURL" commandName="Open Cheat Sheet from URL" description="Open a Cheat Sheet from file at a specified URL." category="_ks271PdTEeSfads-GQT-8g">
+    <parameters xmi:id="_ks27f_dTEeSfads-GQT-8g" elementId="cheatSheetId" name="Identifier" optional="false"/>
+    <parameters xmi:id="_ks27gPdTEeSfads-GQT-8g" elementId="name" name="Name" optional="false"/>
+    <parameters xmi:id="_ks27gfdTEeSfads-GQT-8g" elementId="url" name="URL" optional="false"/>
+  </commands>
+  <commands xmi:id="_ks27gvdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.ui.commands.showTopologyLabelsCommandIPv4" commandName="Show Topology Labels IPv4" category="_ks270_dTEeSfads-GQT-8g">
+    <parameters xmi:id="_ks27g_dTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.ui.showtopology.commandParameter" name="augmentation parameter"/>
+  </commands>
+  <commands xmi:id="_ks27hPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.browser.openBundleResource" commandName="Open Resource in Browser" description="Opens a bundle resource in the default web browser." category="_ks270vdTEeSfads-GQT-8g">
+    <parameters xmi:id="_ks27hfdTEeSfads-GQT-8g" elementId="plugin" name="Plugin"/>
+    <parameters xmi:id="_ks27hvdTEeSfads-GQT-8g" elementId="path" name="Path"/>
+  </commands>
+  <commands xmi:id="_ks27h_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.PushBranch" commandName="Push Branch..." category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27iPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.help.aboutAction" commandName="About" description="Open the about dialog" category="_ks271PdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27ifdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.stash.create" commandName="Stash Changes" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27ivdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.history.CheckoutCommand" commandName="Checkout" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27i_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.file.closeAllSaved" commandName="Close All Saved" description="Close all saved editors" category="_ks270PdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27jPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.redo" commandName="Redo" description="Redo the last operation" category="_ks27xvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27jfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.navigate.selectWorkingSets" commandName="Select Working Sets" description="Select the working sets that are applicable for this window." category="_ks270vdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27jvdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.team.RemoveFromIndex" commandName="Remove from Git Index" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27j_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.newWizard" commandName="New" description="Open the New item wizard" category="_ks270PdTEeSfads-GQT-8g">
+    <parameters xmi:id="_ks27kPdTEeSfads-GQT-8g" elementId="newWizardId" name="New Wizard"/>
+  </commands>
+  <commands xmi:id="_ks27kfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.window.newWindow" commandName="New Window" description="Open another window" category="_ks270vdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27kvdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.history.CherryPick" commandName="Cherry Pick" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27k_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.file.close" commandName="Close" description="Close the active editor" category="_ks270PdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27lPdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.history.CompareVersions" commandName="Compare with each other" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27lfdTEeSfads-GQT-8g" elementId="org.eclipse.equinox.p2.ui.sdk.install" commandName="Install New Software..." category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27lvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.window.customizePerspective" commandName="Customize Perspective" description="Customize the current perspective" category="_ks270vdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27l_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.CheckoutCommand" commandName="Checkout" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27mPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.moveLineUp" commandName="Move Lines Up" description="Moves the selected lines up" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27mfdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.history.Reset" commandName="Reset..." category="_ks270_dTEeSfads-GQT-8g">
+    <parameters xmi:id="_ks27mvdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.history.ResetMode" name="Reset mode" optional="false"/>
+  </commands>
+  <commands xmi:id="_ks27m_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.navigate.previousSubTab" commandName="Previous Sub-Tab" description="Switch to the previous sub-tab" category="_ks27zvdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27nPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.navigate.showIn" commandName="Show In" category="_ks27zvdTEeSfads-GQT-8g">
+    <parameters xmi:id="_ks27nfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.navigate.showIn.targetId" name="Show In Target Id" optional="false"/>
+  </commands>
+  <commands xmi:id="_ks27nvdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesViewRemoveRemote" commandName="Delete Remote" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27n_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.dialogs.openInputDialog" commandName="Open Input Dialog" description="Open an Input Dialog" category="_ks27yvdTEeSfads-GQT-8g">
+    <parameters xmi:id="_ks27oPdTEeSfads-GQT-8g" elementId="title" name="Title"/>
+    <parameters xmi:id="_ks27ofdTEeSfads-GQT-8g" elementId="message" name="Message"/>
+    <parameters xmi:id="_ks27ovdTEeSfads-GQT-8g" elementId="initialValue" name="Initial Value"/>
+    <parameters xmi:id="_ks27o_dTEeSfads-GQT-8g" elementId="cancelReturns" name="Return Value on Cancel"/>
+  </commands>
+  <commands xmi:id="_ks27pPdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RebaseCurrent" commandName="Rebase" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27pfdTEeSfads-GQT-8g" elementId="org.eclipse.compare.copyRightToLeft" commandName="Copy from Right to Left" description="Copy Current Change from Right to Left" category="_ks270fdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27pvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.ide.markCompleted" commandName="Mark Completed" description="Mark the selected tasks as completed" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27p_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.recenter" commandName="Recenter" description="Scroll cursor line to center, top and bottom" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27qPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.select.windowStart" commandName="Select Window Start" description="Select to the start of the window" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27qfdTEeSfads-GQT-8g" elementId="com.cisco.vmmaestro.help.aboutAction" commandName="About command" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27qvdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.history.Revert" commandName="Revert Commit" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27q_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.edit.text.scroll.lineDown" commandName="Scroll Line Down" description="Scroll down one line of text" category="_ks27yfdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27rPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.ToggleCoolbarAction" commandName="Toggle Toolbar Visibility" description="Toggles the visibility of the window toolbar" category="_ks270vdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27rfdTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.RepositoriesViewImportProjects" commandName="Import Projects..." description="Import or create in local Git repository" category="_ks27y_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27rvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.navigate.openResource" commandName="Open Resource" description="Open an editor on a particular resource" category="_ks27zvdTEeSfads-GQT-8g">
+    <parameters xmi:id="_ks27r_dTEeSfads-GQT-8g" elementId="filePath" name="File Path" typeId="org.eclipse.ui.ide.resourcePath"/>
+  </commands>
+  <commands xmi:id="_ks27sPdTEeSfads-GQT-8g" elementId="org.eclipse.compare.copyAllLeftToRight" commandName="Copy All from Left to Right" description="Copy All Changes from Left to Right" category="_ks270fdTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27sfdTEeSfads-GQT-8g" elementId="AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction" commandName="Cheat Sheets..." category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27svdTEeSfads-GQT-8g" elementId="AUTOGEN:::org.eclipse.search.searchActionSet/org.eclipse.search.OpenSearchDialogPage" commandName="Search..." description="Search" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27s_dTEeSfads-GQT-8g" elementId="AUTOGEN:::org.eclipse.team.ui.actionSet/org.eclipse.team.ui.synchronizeAll" commandName="Synchronize..." description="Synchronize..." category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27tPdTEeSfads-GQT-8g" elementId="AUTOGEN:::org.eclipse.team.ui.actionSet/org.eclipse.team.ui.ConfigureProject" commandName="Share Project..." description="Share the project with others using a version and configuration management system." category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27tfdTEeSfads-GQT-8g" elementId="AUTOGEN:::org.eclipse.ui.texteditor.ruler.actions/org.eclipse.ui.texteditor.BookmarkRulerAction" commandName="Text Editor Bookmark Ruler Action" category="_ks270_dTEeSfads-GQT-8g"/>
+  <commands xmi:id="_ks27tvdTEeSfads-GQT-8g" elementId="AUTOGEN:::org.eclipse.ui.texteditor.ruler.actions/org.eclipse.ui.texteditor.SelectRulerAction" commandName="Text Editor Ruler Single-Click" category="_ks270_dTEeSfads-GQT-8g"/>
+  <addons xmi:id="_ks27t_dTEeSfads-GQT-8g" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_ks27uPdTEeSfads-GQT-8g" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_ks27ufdTEeSfads-GQT-8g" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_ks27uvdTEeSfads-GQT-8g" elementId="org.eclipse.e4.ui.workbench.commands.model" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_ks27u_dTEeSfads-GQT-8g" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_ks27vPdTEeSfads-GQT-8g" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+  <addons xmi:id="_ks27vfdTEeSfads-GQT-8g" elementId="Cleanup Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.cleanupaddon.CleanupAddon"/>
+  <addons xmi:id="_ks27vvdTEeSfads-GQT-8g" elementId="DnD Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.dndaddon.DnDAddon"/>
+  <addons xmi:id="_ks27v_dTEeSfads-GQT-8g" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
+  <addons xmi:id="_ks27wPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_ks27wfdTEeSfads-GQT-8g" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
+  <categories xmi:id="_ks27wvdTEeSfads-GQT-8g" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
+  <categories xmi:id="_ks27w_dTEeSfads-GQT-8g" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>
+  <categories xmi:id="_ks27xPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.category.project" name="Project"/>
+  <categories xmi:id="_ks27xfdTEeSfads-GQT-8g" elementId="org.eclipse.tm.terminal.category1" name="Terminal view commands" description="Terminal view commands"/>
+  <categories xmi:id="_ks27xvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.category.edit" name="Edit"/>
+  <categories xmi:id="_ks27x_dTEeSfads-GQT-8g" elementId="org.eclipse.search.ui.category.search" name="Search" description="Search command category"/>
+  <categories xmi:id="_ks27yPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.ide.markerContents" name="Contents" description="The category for menu contents"/>
+  <categories xmi:id="_ks27yfdTEeSfads-GQT-8g" elementId="org.eclipse.ui.category.textEditor" name="Text Editing" description="Text Editing Commands"/>
+  <categories xmi:id="_ks27yvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.category.dialogs" name="Dialogs" description="Commands for opening dialogs"/>
+  <categories xmi:id="_ks27y_dTEeSfads-GQT-8g" elementId="org.eclipse.egit.ui.commandCategory" name="Git"/>
+  <categories xmi:id="_ks27zPdTEeSfads-GQT-8g" elementId="org.eclipse.ui.category.perspectives" name="Perspectives" description="Commands for opening perspectives"/>
+  <categories xmi:id="_ks27zfdTEeSfads-GQT-8g" elementId="org.eclipse.ltk.ui.category.refactoring" name="Refactoring"/>
+  <categories xmi:id="_ks27zvdTEeSfads-GQT-8g" elementId="org.eclipse.ui.category.navigate" name="Navigate"/>
+  <categories xmi:id="_ks27z_dTEeSfads-GQT-8g" elementId="org.eclipse.gef.category.view" name="View" description="View"/>
+  <categories xmi:id="_ks270PdTEeSfads-GQT-8g" elementId="org.eclipse.ui.category.file" name="File"/>
+  <categories xmi:id="_ks270fdTEeSfads-GQT-8g" elementId="org.eclipse.compare.ui.category.compare" name="Compare" description="Compare command category"/>
+  <categories xmi:id="_ks270vdTEeSfads-GQT-8g" elementId="org.eclipse.ui.category.window" name="Window"/>
+  <categories xmi:id="_ks270_dTEeSfads-GQT-8g" elementId="org.eclipse.core.commands.categories.autogenerated" name="Uncategorized" description="Commands that were either auto-generated or have no category"/>
+  <categories xmi:id="_ks271PdTEeSfads-GQT-8g" elementId="org.eclipse.ui.category.help" name="Help"/>
+</application:Application>
